@@ -10,3 +10,8 @@ See below for a list of our standard services
 2. Construction Plans / Drafting 
 3. Feasibility Studies
 4. Concept Design
+5. Massing Studies
+6. Building Envelope / Insulation Upgrades
+7. Renovation-Addition / Adaptive Re-use
+8. Land-Use Planning
+9. General Review
