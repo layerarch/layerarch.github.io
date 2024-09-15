@@ -1,0 +1,5 @@
+open githash to layerarch.github.io directory
+
+run "bundle exec jekyll serve" (first time only)
+
+run "jekyll serve"
