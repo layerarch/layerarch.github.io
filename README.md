@@ -15,3 +15,7 @@ See below for a list of our standard services
 7. Renovation-Addition / Adaptive Re-use
 8. Land-Use Planning
 9. General Review
+
+## Contact
+Email: mmacneill@layerarch.ca\
+Phone: 416 528 1877
