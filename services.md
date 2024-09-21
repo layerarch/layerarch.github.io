@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Services
+show_title: 
 permalink: /services/
 ---
 

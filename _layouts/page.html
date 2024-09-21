@@ -1,0 +1,13 @@
+---
+layout: base
+---
+
+<div class="page">
+  {%- if page.title and page.show_title != false -%}
+    <h1 class="page-title">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <div class="page-content">
+    {{ content }}
+  </div>
+</div>
