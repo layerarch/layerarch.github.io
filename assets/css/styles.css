@@ -1,9 +1,11 @@
+/* Services Grid Layout */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
+/* Service Box Styling */
 .service-box {
     border: 1px solid #ddd;
     padding: 15px;
@@ -11,39 +13,112 @@
     border-radius: 5px;
     background-color: #f9f9f9;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1); /* Optional */
-    /* margin-bottom: 20px; */ 
 }
 
 .service-box h3 {
     margin-top: 10px;
     font-size: 18px;
 }
-  
+
 .service-box p {
     font-size: 14px;
 }
-  
-  /* Add this to your assets/css/styles.css file */
+
+/* Navigation Menu */
 .nav-list {
     list-style-type: none; /* Remove bullet points */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margin */
     display: flex; /* Use flexbox for horizontal layout */
+    flex-wrap: wrap;
 }
-  
+
 .nav-list li {
     margin-right: 20px; /* Add space between items */
 }
-  
+
 .nav-list li:last-child {
     margin-right: 0; /* Remove margin from last item */
 }
-  
+
 .site-nav a {
     text-decoration: none; /* Remove underline from links */
     color: #333; /* Change this color to whatever you want */
 }
-  
+
 .site-nav a:hover {
     text-decoration: underline; /* Optional: underline on hover */
+}
+
+/* Mobile-specific Styles for the Services Grid and Hamburger Menu */
+@media (max-width: 768px) {
+    /* Grid layout for services - Single column */
+    .grid-container {
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+
+    /* Navigation menu - Hidden by default */
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px; /* Adjust according to your header height */
+        left: 0;
+        right: 0;
+        background-color: white;
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        width: 100%; /* Ensure full width on mobile */
+    }
+
+    /* Hamburger menu button */
+    .nav-toggle {
+        background: none;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top: 15px; /* Adjust for your header height */
+    }
+
+    /* Hamburger icon */
+    .hamburger {
+        width: 25px;
+        height: 2px;
+        background-color: #333;
+        display: block;
+        position: relative;
+    }
+
+    /* Top and bottom lines of the hamburger */
+    .hamburger::before,
+    .hamburger::after {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 2px;
+        background-color: #333;
+        display: block;
+    }
+
+    .hamburger::before {
+        top: -7px;
+    }
+
+    .hamburger::after {
+        top: 7px;
+    }
+
+    /* Show navigation when the menu is active */
+    .nav-list.active {
+        display: flex;
+        flex-direction: column;
+        left: 0; /* Aligns the dropdown under the button */
+        right: 0;
+        width: 100%; /* Ensure full menu width */
+        position: absolute;
+        top: 50px; /* Adjust position under the hamburger button */
+        padding: 15px;
+    }
 }
