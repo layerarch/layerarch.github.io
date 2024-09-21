@@ -59,3 +59,17 @@ layout: base
   {%- endif -%}
 
 </div>
+
+<div class="grid-container">
+    <div class="row">
+      {%- assign services = site.pages | where_exp: "page", "page.layout == 'service'" | slice: 0, 9 -%}
+      {%- for service in services -%}
+        <div class="col-4 service-box">
+          <h3><a href="{{ service.url | relative_url }}">{{ service.title }}</a></h3>
+          <p>{{ service.description | truncatewords: 15 }}</p>
+          <a class="learn-more" href="{{ service.url | relative_url }}">Learn more</a>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+  
