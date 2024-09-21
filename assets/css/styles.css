@@ -62,6 +62,10 @@
         grid-template-columns: 1fr; /* Single column layout */
     }
 
+    .site-nav a {
+        font-weight: bold;
+    }
+
     /* Hamburger menu button */
     .nav-toggle {
         display: block; /* Show on mobile */
@@ -86,7 +90,7 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         z-index: 1000;
         width: 100%; /* Ensure full width on mobile */
-        line-height: 35px; /* Adjust line-height for mobile */
+        line-height: 40px; /* Adjust line-height for mobile */
     }
 
     .nav-list li {
