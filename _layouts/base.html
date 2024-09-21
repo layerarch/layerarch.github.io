@@ -18,21 +18,28 @@
 
     {%- include footer.html -%}
 
-
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         const navToggle = document.querySelector('.nav-toggle');
         const navList = document.querySelector('.nav-list');
-    
+
+        // Function to toggle the menu
         navToggle.addEventListener('click', function() {
           const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
           navToggle.setAttribute('aria-expanded', !isExpanded);
           navList.classList.toggle('active'); /* Toggle the "active" class to show/hide the menu */
         });
+
+        // Hide the dropdown when scrolling
+        window.addEventListener('scroll', function() {
+          if (navList.classList.contains('active')) {
+            navList.classList.remove('active'); // Hide the dropdown
+            navToggle.setAttribute('aria-expanded', 'false'); // Update aria attribute
+          }
+        });
       });
     </script>
-    
-
+  
   </body>
 
 </html>

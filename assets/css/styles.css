@@ -52,7 +52,7 @@
 
 .site-nav a {
     text-decoration: none; /* Remove underline from links */
-    color: #333; /* Change this color to whatever you want */
+    color: #333333; /* Change this color to whatever you want */
 }
 
 .site-nav a:hover {
@@ -71,8 +71,9 @@
         grid-template-columns: 1fr; /* Single column layout */
     }
 
-    .site-nav a {
+    .site-nav {
         font-weight: bold;
+        text-align: center;
     }
 
     /* Hamburger menu button */
@@ -92,22 +93,24 @@
         flex-direction: column;
         position: absolute;
         top: 60px; /* Adjust according to your header height */
-        left: 0;
-        right: 0;
+        right: 10px;
         background-color: white;
         padding: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         z-index: 1000;
-        width: 100%; /* Ensure full width on mobile */
+        width: auto; 
+        max-width: calc(100px + 20px);
         line-height: 40px; /* Adjust line-height for mobile */
     }
 
     .nav-list li {
-        margin-right: 30px; /* Remove margin from all items on mobile */
+        margin-right: 10px; /* Remove margin from all items on mobile */
+        margin-left: 10px;
     }
 
     .nav-list li:last-child {
-        margin-right: 30px; /* Remove margin from last item */
+        margin-right: 10px; /* Remove margin from last item */
+        margin-left: 10px;
     }
 
     /* Hamburger menu button */
@@ -118,6 +121,12 @@
         position: absolute;
         right: 10px;
         top: 15px; /* Adjust for your header height */
+    }
+
+    /* Show navigation when the menu is active */
+    .nav-list.active {
+        display: flex;
+        flex-direction: column;
     }
 
     /* Hamburger icon */
@@ -148,15 +157,5 @@
         top: 7px;
     }
 
-    /* Show navigation when the menu is active */
-    .nav-list.active {
-        display: flex;
-        flex-direction: column;
-        left: 0; /* Aligns the dropdown under the button */
-        right: 0;
-        width: 100%; /* Ensure full menu width */
-        position: fixed; /* Ensures the dropdown stays on screen */
-        top: 60px; /* Adjust position under the hamburger button */
-        padding: 15px;
-    }
+
 }
