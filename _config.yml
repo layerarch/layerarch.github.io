@@ -27,6 +27,15 @@ url: "http://layerarch.shop" # the base hostname & protocol for your site, e.g. 
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# Navigation links
+header_links:
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+  - title: Services
+    url: /services/
+
 # Build settings
 theme: minima
   
