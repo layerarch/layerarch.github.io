@@ -24,6 +24,15 @@
     font-size: 14px;
 }
 
+/* Sticky Header */
+.site-header {
+    position: sticky; /* or 'fixed' based on your preference */
+    top: 0; /* Stick to the top */
+    background-color: white; /* Background color for visibility */
+    z-index: 1000; /* Ensure it's above other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
 /* Navigation Menu */
 .nav-list {
     list-style-type: none; /* Remove bullet points */
