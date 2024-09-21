@@ -50,11 +50,27 @@
     text-decoration: underline; /* Optional: underline on hover */
 }
 
+/* Hamburger Menu Visibility */
+.nav-toggle {
+    display: none; /* Hide by default */
+}
+
 /* Mobile-specific Styles for the Services Grid and Hamburger Menu */
 @media (max-width: 768px) {
     /* Grid layout for services - Single column */
     .grid-container {
         grid-template-columns: 1fr; /* Single column layout */
+    }
+
+    /* Hamburger menu button */
+    .nav-toggle {
+        display: block; /* Show on mobile */
+        background: none;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top: 15px; /* Adjust for your header height */
     }
 
     /* Navigation menu - Hidden by default */
@@ -70,6 +86,15 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         z-index: 1000;
         width: 100%; /* Ensure full width on mobile */
+        line-height: 35px; /* Adjust line-height for mobile */
+    }
+
+    .nav-list li {
+        margin-right: 30px; /* Remove margin from all items on mobile */
+    }
+
+    .nav-list li:last-child {
+        margin-right: 30px; /* Remove margin from last item */
     }
 
     /* Hamburger menu button */
@@ -117,8 +142,8 @@
         left: 0; /* Aligns the dropdown under the button */
         right: 0;
         width: 100%; /* Ensure full menu width */
-        position: absolute;
-        top: 50px; /* Adjust position under the hamburger button */
+        position: fixed; /* Ensures the dropdown stays on screen */
+        top: 60px; /* Adjust position under the hamburger button */
         padding: 15px;
     }
 }
