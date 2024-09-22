@@ -1,8 +1,9 @@
 <header class="site-header" role="banner">
     <div class="wrapper">
-        <h1 class="site-title">
-            <a href="{{ site.url }}{{ site.baseurl }}/">{{ site.title }}</a>
-        </h1>
+        <!-- Logo -->
+        <a href="{{ site.url }}{{ site.baseurl }}/">
+            <img src="{{ '/assets/images/logo/logo.png' | relative_url }}" alt="{{ site.title }}" style="height: 45px; width: auto;">
+        </a>
 
         <!-- Hamburger Button for Mobile -->
         <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
@@ -19,3 +20,4 @@
         </nav>
     </div>
 </header>
+

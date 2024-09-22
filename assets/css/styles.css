@@ -1,3 +1,25 @@
+.home {
+    display: flex;
+    flex-direction: column; /* Stack child elements in a column */
+    align-items: left; /* Center-align the content horizontally */
+    padding: 0px; /* Add padding as needed */
+}
+
+.content-container {
+    width: 100%; /* Take full width for content */
+    margin-bottom: 20px; /* Add space between content and services */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%; /* Ensure it takes full width */
+}
+
+/* Add any other existing styles as needed */
+
+
 /* Services Grid Layout */
 .grid-container {
     display: grid;
@@ -28,9 +50,22 @@
 .site-header {
     position: sticky; /* or 'fixed' based on your preference */
     top: 0; /* Stick to the top */
+    min-height: auto;
     background-color: white; /* Background color for visibility */
     z-index: 1000; /* Ensure it's above other content */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.wrapper {
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Vertically align items to the center */
+    justify-content: space-between; /* Space out the logo and nav items */
+    padding: 0px; /* Adjust padding as necessary */
+}
+
+
+a {
+    height: 45px; /* Check if there's a global height set */
 }
 
 /* Navigation Menu */
@@ -39,7 +74,6 @@
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margin */
     display: flex; /* Use flexbox for horizontal layout */
-    flex-wrap: wrap;
 }
 
 .nav-list li {
@@ -48,6 +82,12 @@
 
 .nav-list li:last-child {
     margin-right: 0; /* Remove margin from last item */
+}
+
+.site-nav {
+    display: flex; /* Ensure flexbox is used */
+    justify-content: flex-end; /* Align items to the right */
+    flex-grow: 1; /* Allow this element to take the remaining space */
 }
 
 .site-nav a {
@@ -84,7 +124,7 @@
         cursor: pointer;
         position: absolute;
         right: 10px;
-        top: 15px; /* Adjust for your header height */
+        top: 25px; /* Adjust for your header height */
     }
 
     /* Navigation menu - Hidden by default */
@@ -111,16 +151,6 @@
     .nav-list li:last-child {
         margin-right: 10px; /* Remove margin from last item */
         margin-left: 10px;
-    }
-
-    /* Hamburger menu button */
-    .nav-toggle {
-        background: none;
-        border: none;
-        cursor: pointer;
-        position: absolute;
-        right: 10px;
-        top: 15px; /* Adjust for your header height */
     }
 
     /* Show navigation when the menu is active */
@@ -156,6 +186,5 @@
     .hamburger::after {
         top: 7px;
     }
-
 
 }

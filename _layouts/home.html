@@ -3,20 +3,21 @@ layout: base
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+    {%- if page.title -%}
+        <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
 
-  {{ content }}
+    <div class="content-container"> <!-- Wrap content in a container -->
+        {{ content }} <!-- This will include the content of index.md -->
+    </div>
+
+    <div class="grid-container">
+        {%- assign services = site.pages | where_exp: "page", "page.layout == 'service'" | slice: 0, 9 -%}
+        {%- for service in services -%}
+            <div class="service-box">
+                <h3><a href="{{ service.url | relative_url }}">{{ service.title }}</a></h3>
+                <p>{{ service.description | truncatewords: 15 }}</p>
+            </div>
+        {%- endfor -%}
+    </div>
 </div>
-
-<div class="grid-container">
-    {%- assign services = site.pages | where_exp: "page", "page.layout == 'service'" | slice: 0, 9 -%}
-    {%- for service in services -%}
-      <div class="service-box">
-        <h3><a href="{{ service.url | relative_url }}">{{ service.title }}</a></h3>
-        <p>{{ service.description | truncatewords: 15 }}</p>
-      </div>
-    {%- endfor -%}
-  </div>
-  
