@@ -18,6 +18,7 @@
 
     {%- include footer.html -%}
 
+    <!-- Navigation Toggle Script -->
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         const navToggle = document.querySelector('.nav-toggle');
@@ -39,7 +40,46 @@
         });
       });
     </script>
-  
+
+    <!-- Dark Mode Toggle Script -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const darkModeToggle = document.getElementById("dark-mode-toggle");
+        const logo = document.querySelector(".site-header img");
+        const header = document.querySelector(".site-header");
+        const navLinks = document.querySelectorAll(".site-nav a");
+        const hamburger = document.querySelector(".hamburger");
+        const serviceBoxes = document.querySelectorAll(".service-box");
+        const darkModeIcon = document.getElementById("dark-mode-icon");
+
+        // Check local storage for dark mode preference
+        if (localStorage.getItem('darkMode') === 'enabled') {
+          document.body.classList.add("dark-mode");
+          logo.src = "{{ '/assets/images/logo/logo-inverted.png' | relative_url }}";
+          darkModeIcon.src = "{{ '/assets/images/icons/dark-mode-inverted.png' | relative_url }}";
+        }
+
+        // Event listener to handle toggle
+        darkModeToggle.addEventListener("click", function(event) {
+          event.preventDefault(); // Prevent the default anchor behavior
+
+          // Toggle dark mode on body
+          document.body.classList.toggle("dark-mode");
+
+          // Change logo
+          if (document.body.classList.contains("dark-mode")) {
+            logo.src = "{{ '/assets/images/logo/logo-inverted.png' | relative_url }}";
+            darkModeIcon.src = "{{ '/assets/images/icons/dark-mode-inverted.png' | relative_url }}";
+            localStorage.setItem('darkMode', 'enabled'); // Store preference
+          } else {
+            logo.src = "{{ '/assets/images/logo/logo.png' | relative_url }}";
+            darkModeIcon.src = "{{ '/assets/images/icons/dark-mode2.png' | relative_url }}";
+            localStorage.setItem('darkMode', 'disabled'); // Store preference
+          }
+        });
+      });
+    </script>
+
   </body>
 
 </html>
