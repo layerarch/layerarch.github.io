@@ -60,7 +60,7 @@
     display: flex; /* Enable flexbox */
     align-items: center; /* Vertically align items to the center */
     justify-content: space-between; /* Space out the logo and nav items */
-    padding: 10px; /* Adjust padding as necessary */
+    padding: 0px; /* Adjust padding as necessary */
 }
 
 
@@ -116,6 +116,10 @@ a {
         text-align: center;
     }
 
+    .wrapper {
+        padding: 10px; /* Adjust padding as necessary */
+    }
+
     /* Hamburger menu button */
     .nav-toggle {
         display: block; /* Show on mobile */
@@ -124,7 +128,7 @@ a {
         cursor: pointer;
         position: absolute;
         right: 10px;
-        top: 25px; /* Adjust for your header height */
+        top: 30px; /* Adjust for your header height */
     }
 
     /* Navigation menu - Hidden by default */
