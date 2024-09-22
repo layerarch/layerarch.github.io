@@ -60,7 +60,7 @@
     display: flex; /* Enable flexbox */
     align-items: center; /* Vertically align items to the center */
     justify-content: space-between; /* Space out the logo and nav items */
-    padding: 0px; /* Adjust padding as necessary */
+    padding: 10px; /* Adjust padding as necessary */
 }
 
 
