@@ -56,13 +56,6 @@ a {
     text-decoration: underline; /* Underline on hover */
 }
 
-/* Footer */
-.site-footer {
-    border: none;
-    background-color: rgb(250, 250, 250);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
-}
-
 /* Header */
 .site-header {
     position: sticky; /* or 'fixed' based on your preference */
@@ -75,11 +68,42 @@ a {
 }
 
 .wrapper {
+    /* max-width: 800px; */
     display: flex; /* Enable flexbox */
     align-items: center; /* Vertically align items to the center */
     justify-content: space-between; /* Space out the logo and nav items */
     padding: 0px; /* Adjust padding as necessary */
 }
+
+/* Footer */
+.site-footer {
+    border: none;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-column {
+    flex: 1; /* Distribute space equally among columns */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px; /* Add some space above the copyright */
+    flex-basis: 100%;
+}
+
+/* Adjust social media icons if needed */
+.social-media img {
+    margin-right: 10px; /* Space between icons */
+}
+
 
 /* Hamburger Menu Visibility */
 .nav-toggle {

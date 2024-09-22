@@ -51,12 +51,14 @@
         const hamburger = document.querySelector(".hamburger");
         const serviceBoxes = document.querySelectorAll(".service-box");
         const darkModeIcon = document.getElementById("dark-mode-icon");
+        const instagramIcon = document.querySelector(".instagram-icon");
 
         // Check local storage for dark mode preference
         if (localStorage.getItem('darkMode') === 'enabled') {
           document.body.classList.add("dark-mode");
           logo.src = "{{ '/assets/images/logo/logo-inverted.png' | relative_url }}";
           darkModeIcon.src = "{{ '/assets/images/icons/dark-mode-inverted.png' | relative_url }}";
+          instagramIcon.src = "{{ '/assets/images/social/instagram-bw.png' | relative_url }}"; 
         }
 
         // Event listener to handle toggle
@@ -70,10 +72,12 @@
           if (document.body.classList.contains("dark-mode")) {
             logo.src = "{{ '/assets/images/logo/logo-inverted.png' | relative_url }}";
             darkModeIcon.src = "{{ '/assets/images/icons/dark-mode-inverted.png' | relative_url }}";
+            instagramIcon.src = "{{ '/assets/images/social/instagram-bw.png' | relative_url }}"; 
             localStorage.setItem('darkMode', 'enabled'); // Store preference
           } else {
             logo.src = "{{ '/assets/images/logo/logo.png' | relative_url }}";
             darkModeIcon.src = "{{ '/assets/images/icons/dark-mode2.png' | relative_url }}";
+            instagramIcon.src = "{{ '/assets/images/social/instagram.png' | relative_url }}"; 
             localStorage.setItem('darkMode', 'disabled'); // Store preference
           }
         });
