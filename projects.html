@@ -1,6 +1,24 @@
 ---
 layout: page
 title: Projects
-show_title: 
+show_title: False
 permalink: /projects/
 ---
+
+<div class="project-container">
+    <!-- Display the page title -->
+    <h1 class="text-subheading-underlined">{{ page.title }}</h1>
+
+    <!-- Image of the project -->
+    <div class="project-image">
+        <img src="{{ '/_projects/24001/24001-interior.jpg' | relative_url }}" alt="Project Image" />
+    </div>
+
+    <!-- Project title -->
+    <h2 class="project-title">Project Title</h2>
+
+    <!-- Description of the project -->
+    <div class="project-description">
+        <p>Here you can add the description of the project. You can include details about the scope, design elements, or any important information related to the project.</p>
+    </div>
+</div>
