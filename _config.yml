@@ -121,7 +121,7 @@ logo:
   show_logo_text_on_mobile: false
   show_logo_text_on_desktop: false
 
-header: 
+header:
   fixed: false
 
 open_graph:
