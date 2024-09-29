@@ -1,28 +1,116 @@
 ---
-layout: base
+layout: default
+body_classes: page-home
 ---
 
-<div class="home">
-    {%- if page.title -%}
-        <h1 class="page-heading">{{ page.title }}</h1>
-    {%- endif -%}
-
-    <div class="content-container"> <!-- Wrap content in a container -->
-        {{ content }} <!-- This will include the content of index.md -->
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% include framework/heading.html
+        title=page.title
+        description=page.description
+        %}
+      </div>
     </div>
-
-    <div class="grid-container">
-        {%- assign services = site.pages | where_exp: "page", "page.layout == 'service'" | slice: 0, 9 -%}
-        {%- for service in services -%}
-            <div class="service-box">
-                <h3><a href="{{ service.url | relative_url }}">{{ service.title }}</a></h3>
-                <p>{{ service.description | truncatewords: 15 }}</p>
-            </div>
-        {%- endfor -%}
-    </div>
-
-    <!-- "All Services" Button -->
-    <div class="centered-button">
-        <a href="{{ site.baseurl }}/services/" class="button">View All Services</a>
-    </div>
+  </div>
 </div>
+
+{% assign cards = site.projects | sort: 'date' | reverse %}
+{% assign limit = page.projects.limit | default: 3 %}
+{% assign sort_by = page.projects.sort | default: 'date' %}
+{% assign columns =  page.projects.columns | default: 3 %}
+{% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
+{% if sort_by == 'weight' %}
+  {% assign cards = cards | sort: 'weight' %}
+{% endif %}
+
+{% if cards.size > 0 %}
+<div class="section pt-0">
+  <div class="container">
+    <div class="row">
+
+      {% include framework/grid-header.html 
+        heading=page.projects.heading 
+        sub_heading=page.projects.sub_heading 
+      %}
+     
+      {% for card in cards limit: limit %}
+      <div
+        class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0">
+        {% include theme/cards/card-project.html
+          title=card.title
+          description=card.description
+          thumbnail=card.thumbnail
+          categories=card.categories
+          date=card.date
+          url=card.url
+          client=card.client
+        %}
+      </div>
+      {% endfor %}
+
+      {% include framework/grid-footer.html 
+        view_more_button_text=page.projects.view_more_button_text
+        view_more_button_link=page.projects.view_more_button_link
+        align="right"
+        icon="fa-arrow-right"
+      %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% assign cards = site.posts | sort: 'date' | reverse %}
+{% assign limit = page.posts.limit | default: 3 %}
+{% assign sort_by = page.posts.sort | default: 'date' %}
+{% assign columns =  page.posts.columns | default: 3 %}
+{% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
+{% if sort_by == 'weight' %}
+  {% assign cards = cards | sort: 'weight' %}
+{% endif %}
+
+{% if cards.size > 0 %}
+<div class="section section-base-bg-2">
+  <div class="container">
+    <div class="row">
+
+      {% include framework/grid-header.html 
+        heading=page.posts.heading 
+        sub_heading=page.posts.sub_heading 
+      %}
+
+      {% for card in cards limit: limit %}
+      <div class="col-12 col-md-4 {{ columns }} {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mb-3 mb-md-6">
+        {% include theme/cards/card-post.html
+          title=card.title
+          description=card.description
+          url=card.url
+        %}
+      </div>
+      {% endfor %}
+
+      {% include framework/grid-footer.html 
+        view_more_button_text=page.posts.view_more_button_text
+        view_more_button_link=page.posts.view_more_button_link
+        align="right"
+        icon="fa-arrow-right"
+      %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if site.newsletter.mailchimp.form_action_url and site.newsletter.mailchimp.form_action_url != '' %}
+  <div class="section section-base-bg-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-12"></div>
+        {% include framework/subscribe.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}
