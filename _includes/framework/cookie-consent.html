@@ -111,6 +111,23 @@
                                         col4: 'description ...',
                                     }
                                 ]
+                            }, {
+                                title: 'Comments & Publishing cookies',
+                                description: 'These cookies allow you to interact, comment and publish to the website',
+                                toggle: {
+                                    value: 'comments',     // your cookie category
+                                    enabled: false,
+                                    readonly: false
+                                },
+                                cookie_table: [             // list of all expected cookies
+                                    {
+                                        col1: 'disqus_unique',       // match all cookies starting with "_ga"
+                                        col2: 'disqus.com',
+                                        col3: '2 years',
+                                        col4: 'used to make comments on blog posts',
+                                        is_regex: false
+                                    }
+                                ]
                             },
                             {
                                 title: 'More information',
