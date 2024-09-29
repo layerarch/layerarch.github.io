@@ -2,7 +2,7 @@
 # Jekyll Config
 # --------------------
 baseurl: ""
-url: ""
+url: "http://layerarch.shop"
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
@@ -122,7 +122,7 @@ logo:
   show_logo_text_on_desktop: false
 
 header: 
-  fixed: false
+  fixed: true
 
 open_graph:
   meta_opengraph_type: "website"
@@ -171,8 +171,8 @@ menu:
 
 footer:
   enable_footer: true # show/hide the entire footer
-  footer_title: "Jekyll Curate"
-  footer_description: "Curate is a creative portfolio for Jekyll by Zerostatic Themes."
+  footer_title: "Layer Architecture Inc."
+  footer_description: "Tabula Rasa Non Grata."
   enable_social_media_icons: true
   enable_contact_details: false
   enable_menu_footer_primary: true
@@ -185,5 +185,5 @@ footer:
 bottom:
   enable_bottom: false # show/hide the entire bottom (below the footer)
   enable_bottom_menu: false # if enabled, the bottom menu can be edited in `_data/menu.yml`
-  copyright_text: "© 2021 Zerostatic Themes"
+  copyright_text: "© 2024 Layer Architecture Inc All Rights Reserved"
   show_rss_icon: true
