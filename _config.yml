@@ -156,7 +156,7 @@ comments:
 
 newsletter:
   mailchimp:
-    form_action_url: https://zerostatic.us21.list-manage.com/subscribe/post?u=798e19886b83aaab346734382&amp;id=f1c526a772&amp;f_id=0027e3e6f0
+    form_action_url:
     form_title: "Let's keep in touch"
 
 contact_form: 

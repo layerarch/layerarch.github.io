@@ -6,6 +6,6 @@ permalink: "/contact/"
 
 ## Contact Info
 
-- **Email:** <a href="mailto:example@example.com">example@example.com</a>
-- **Phone:** +61 0417 123 XXX
-- **Address:** Clem Jones Promenade, South Brisbane QLD 4101
+- **Email:** <a href="mailto:mmacneill@layerarch.ca">mmacneill@layerarch.ca</a>
+- **Phone:** +1 416 528 1877
+- **Address:** Toronto, ON  M5S 2X1

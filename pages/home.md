@@ -1,8 +1,8 @@
 ---
 layout: home
 permalink: "/"
-title: "Curate is a premium portfolio for <strong>Jekyll.</strong>"
-description: "Showcase your projects, work or case studies in style with this markdown powered portfolio theme for Jekyll."
+title: "<strong>Layer</strong> Architecture Inc."
+description: "We are a full-service architectural office specialised in repurposing and layering onto the build environment for the the next era."
 meta_description: "Jekyll Curate is a premium Jekyll blog theme"
 meta_title: Jekyll Curate - Premium Portfolio Theme
 subscribe: false
