@@ -186,4 +186,4 @@ bottom:
   enable_bottom: false # show/hide the entire bottom (below the footer)
   enable_bottom_menu: false # if enabled, the bottom menu can be edited in `_data/menu.yml`
   copyright_text: "© 2024 Layer Architecture Inc All Rights Reserved"
-  show_rss_icon: true
+  show_rss_icon: false
