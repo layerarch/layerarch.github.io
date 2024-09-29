@@ -107,22 +107,22 @@ fonts:
   logo: "'DM Sans'"
 
 logo:
-  logo_text: "Jekyll Curate"
+  logo_text: "Layer Architecture"
   logo_image: assets/images/logo/logo.png
   logo_image_mobile: assets/images/logo/logo-mobile.png
   logo_image_invert: assets/images/logo/logo-invert.png
   logo_image_invert_mobile: assets/images/logo/logo-invert-mobile.png
-  logo_image_desktop_height: "28px"
-  logo_image_desktop_width: "28px"
+  logo_image_desktop_height: "50px"
+  logo_image_desktop_width: "120px"
   logo_image_mobile_height: "28px"
-  logo_image_mobile_width: "28px"
+  logo_image_mobile_width: "68px"
   show_logo_image_on_mobile: true
   show_logo_image_on_desktop: true
   show_logo_text_on_mobile: false
   show_logo_text_on_desktop: false
 
 header: 
-  fixed: false
+  fixed: true
 
 open_graph:
   meta_opengraph_type: "website"
@@ -152,7 +152,7 @@ comments:
   commento:
     enabled: false # you must have a commento account and be on the correct domain. does not work locally.
   disqus:
-    shortname: "zerostatic" # Your disqus shortcode for example "zerostatic". leave this blank ie "" to disable.
+    shortname: "" # Your disqus shortcode for example "zerostatic". leave this blank ie "" to disable.
 
 newsletter:
   mailchimp:
@@ -162,8 +162,8 @@ newsletter:
 contact_form: 
   use_netlify_form: false
   use_formspree_form: true
-  formspree_endpoint: https://formspree.io/f/moqyklqv
-  netlify_form_name: "contact"
+  formspree_endpoint: https://formspree.io/f/xeojylkp
+  netlify_form_name: ""
 
 menu: 
   show_dropdown_items_in_mobile_menu: false
