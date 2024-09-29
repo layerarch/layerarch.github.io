@@ -2,9 +2,10 @@
 layout: project-right
 title: "Brutalist Office Building"
 description: "In contrast subsymbolic processing specifies no such rules a priori and relies on emergent properties of processing units"
-date: 2018-11-21
+date: 2018-11-03T10:20:00Z
 weight: 1
 thumbnail: "/assets/images/gen/projects/project-1-1-thumbnail.webp"
+image: "/assets/images/gen/projects/project-1-2.webp"
 categories: ["Development"]
 client: "Dubai Star"
 role: "Building Designer"
@@ -13,8 +14,6 @@ gallery:
     caption: "<strong>Above:</strong> North easterly aspect showing curved design"
   - image: "/assets/images/gen/projects/project-1-2.webp"
     caption: "<strong>Above:</strong> Rear offices square design in contrast"
-  - image: "/assets/images/gen/projects/project-1-3.webp"
-    caption: "<strong>Above:</strong> Concrete surfaces casting dramatic shadows"
 gallery_limit: 2
 ---
 

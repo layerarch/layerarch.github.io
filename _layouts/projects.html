@@ -23,9 +23,10 @@ body_classes: page-projects
 {% assign columns =  page.projects.columns | default: 3 %}
 {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
 {% if sort_by == 'weight' %}
-  {% assign cards = site.projects | sort: 'weight' %}
+  {% assign cards = cards | sort: 'weight' %}
 {% endif %}
 
+{% assign cards = site.projects %}
 {% if cards.size > 0 %}
 <div class="section pt-0">
   <div class="container">

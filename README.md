@@ -29,17 +29,23 @@ To build the Jekyll site run `bundle exec jekyll build`
 
 ## Deploy
 
-### Netlify
+### Deploy to Netlify
 
-This theme comes with a working `netlify.toml` which will pre-configure your Netlify deployment for Jekyll. The Netlify docs have a great guide to [creating a site with Netlify](https://docs.netlify.com/site-deploys/create-deploys/).
+This theme is pre-configured to deploy with [Netlify](https://docs.netlify.com/site-deploys/create-deploys/).
 
 > 💡 If you experience bundle install issues during the Netlify deployment, deleting the Gemfile.lock can sometimes help
 
-### GitHub Pages
+### Deploy to GitHub Pages
 
-This theme is tested to work on Github Pages. Jekyll has a [guide to deploying on Github pages](https://jekyllrb.com/docs/github-pages/).
+This theme has been tested to work with GitHub Pages. If you are creating a GitHub Pages "Project site" then your site will be in a sub-folder ie `http://username.github.io/repository` You will need to update the `baseurl` in the `_config.yml` for the asset paths to work correctly.
 
-If you are creating a GitHub Pages "Project site" then your site will be in a sub-folder with a url like `http://username.github.io/repository`. You will need to update the `baseurl` and `url` in the `_config.yml` for the asset paths to work correctly.
+```yaml
+# _config.yml
+baseurl: "/my-repo-name" # replace this with the name of your repo
+url: ""
+```
+
+> 💡 Github pages can be tricky to configure correctly. While we have tested this theme with Github pages, we do not provide support for deploying on this platform. If you continue to experience problems we recommend trying Netlify.
 
 ## Credits
 
