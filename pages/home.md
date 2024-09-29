@@ -3,8 +3,9 @@ layout: home
 permalink: "/"
 title: "<strong>Layer</strong> Architecture Inc."
 description: "We are a full-service architectural office specialised in repurposing and layering onto the build environment for the the next era."
-meta_description: "Jekyll Curate is a premium Jekyll blog theme"
-meta_title: Jekyll Curate - Premium Portfolio Theme
+
+meta_description: "Layer Architecture Inc. | Toronto"
+meta_title: Layer Architecture Inc.
 subscribe: false
 
 projects:
