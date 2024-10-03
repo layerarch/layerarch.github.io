@@ -3,7 +3,7 @@ layout: post
 title: "How to make your website page load speed fast"
 date: 2022-02-13T09:49:03Z
 authors: ["Mike Vance"]
-categories: ["Branding"]
+categories: ["Branding", "Residential"]
 description: Branding is an intrinsic part of your companies success, learn why your brand matters.
 thumbnail: "/assets/images/gen/blog/blog-18-thumbnail.webp"
 image: "/assets/images/gen/blog/blog-18.webp"

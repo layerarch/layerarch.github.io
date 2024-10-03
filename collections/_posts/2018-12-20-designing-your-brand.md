@@ -4,7 +4,7 @@ title: "Designing Your Brand"
 date: 2018-12-20T11:02:00Z
 authors: ["Mike Vance"]
 tags: ["Tutorials", "Premimum"]
-categories: ["Branding"]
+categories: ["Branding", "Residential"]
 description: Branding is an intrinsic part of your companies success, learn why your brand matters.
 thumbnail: "/assets/images/gen/blog/blog-3-thumbnail.webp"
 image: "/assets/images/gen/blog/blog-3.webp"
@@ -63,3 +63,4 @@ Gruber avoided using curly braces in Markdown to unofficially reserve them for i
 - definition lists
 - footnotes
 - abbreviations
+test

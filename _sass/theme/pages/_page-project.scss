@@ -12,6 +12,9 @@
     }
   }
   .project-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     margin-bottom: 40px;
     a {
       color: var(--color-base-text);
@@ -94,15 +97,31 @@
   .project-stats {
     margin-top: 50px;
   }
+  
+  .project-sub-heading {
+    margin-bottom: 10px;
+    padding-top: 30px;  
+    font-size: 16px;
+  }
+  
   .project-date,
+  .project-client,
+  .project-program,
+  .project-type,
+  .project-location,
   .project-role,
-  .project-client {
+  .project-phases,
+  .project-storeys,  
+  .project-area,
+  .construction-duration,
+  .project-budget,
+  .delivery-method {
     margin-bottom: 10px;
     font-size: 16px;
     strong {
       display: inline-block;
       font-weight: 600;
-      width: 70px;
+      width: 100px;
     }
     span {
       display: inline-block;
