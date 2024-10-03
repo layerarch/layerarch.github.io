@@ -5,7 +5,7 @@ description: "In contrast subsymbolic processing specifies no such rules a prior
 date: 2018-11-21
 weight: 1
 thumbnail: "/assets/images/gen/projects/project-1-1-thumbnail.webp"
-categories: ["Development"]
+categories: ["Residential"]
 client: "Dubai Star"
 role: "Building Designer"
 gallery:

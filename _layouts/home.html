@@ -71,6 +71,30 @@ body_classes: page-home
   {% assign cards = cards | sort: 'weight' %}
 {% endif %}
 
+
+<div class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="project-sub-heading">
+        <strong>SERVICES</strong>
+        <div class="grid-container">
+          {%- assign services = site.pages | where_exp: "page", "page.layout == 'service'" | slice: 0, 9 -%}
+          {%- for service in services -%}
+              <div class="service-box">
+                  <h3><a href="{{ service.url | relative_url }}">{{ service.title }}</a></h3>
+                  <p>{{ service.description | truncatewords: 15 }}</p>
+              </div>
+          {%- endfor -%}
+        </div>
+        <div class="centered-button">
+          <a href="{{ site.baseurl }}/services/" class="button">View All Services</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 {% if cards.size > 0 %}
 <div class="section section-base-bg-2">
   <div class="container">

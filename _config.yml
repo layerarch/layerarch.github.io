@@ -113,9 +113,9 @@ logo:
   logo_image_invert: assets/images/logo/logo-invert.png
   logo_image_invert_mobile: assets/images/logo/logo-invert-mobile.png
   logo_image_desktop_height: "50px"
-  logo_image_desktop_width: "120px"
+  logo_image_desktop_width: "125px"
   logo_image_mobile_height: "28px"
-  logo_image_mobile_width: "68px"
+  logo_image_mobile_width: "70px"
   show_logo_image_on_mobile: true
   show_logo_image_on_desktop: true
   show_logo_text_on_mobile: false
@@ -172,7 +172,7 @@ menu:
 footer:
   enable_footer: true # show/hide the entire footer
   footer_title: "Layer Architecture Inc."
-  footer_description: "Tabula Rasa Non Grata."
+  footer_description: "Building on to history one layer at a time"
   enable_social_media_icons: true
   enable_contact_details: false
   enable_menu_footer_primary: true

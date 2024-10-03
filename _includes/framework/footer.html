@@ -1,7 +1,6 @@
 <div class="footer">
   <div class="container">
     <div class="row">
-
         <div class="col-12 col-md-4">
           <div class="footer-info">
             {% if site.footer.footer_title and site.footer.footer_title != "" %}
@@ -19,6 +18,7 @@
           {% if site.darkmode.enable_dark_mode and site.darkmode.show_dark_mode_toggle_in_footer %}
             {% include framework/dark-mode-switcher.html %}
           {% endif %}
+          <a>© 2024 Layer Architecture Inc. All Rights Reserved.</a>
         </div>
 
         <div class="col-12 col-md-8 mt-gutter mt-md-0">
@@ -77,6 +77,5 @@
       </div>
     </div>
     {% endif %}
-
   </div>
-</div>
+</div> 

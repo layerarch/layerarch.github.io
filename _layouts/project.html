@@ -17,18 +17,22 @@ body_classes: page-project
           </div>
         {% endif %}
 
-        {% if page.categories %}
-          <div class="project-categories">
-          {% include framework/categories-badges.html 
-              categories=page.categories
-          %}
+        {% if page.client or page.location or page.program or page.type %}
+        <div class="project-sub-heading">
+          <strong>PROJECT DATA</strong>
+        </div>
+        {% endif %}       
+
+        {% if page.program %}
+          <div class="project-program">
+            <strong>Program </strong><span>{{ page.program }}</span>
           </div>
         {% endif %}
 
-        {% if page.date %}
-          <div class="project-date">
-            <strong>Date </strong><span>{{ page.date | date_to_long_string }}</span>
-          </div>
+        {% if page.type %}
+        <div class="project-type">
+          <strong>Type </strong><span>{{ page.type }}</span>
+        </div>
         {% endif %}
 
         {% if page.client %}
@@ -37,11 +41,71 @@ body_classes: page-project
           </div>
         {% endif %}
 
+        {% if page.location %}
+        <div class="project-location">
+          <strong>Location </strong><span>{{ page.location }}</span>
+        </div>
+        {% endif %}
+
+        <!-- {% if page.role or page.phases %}
+        <div class="project-sub-heading">
+          <strong>SERVICES</strong>
+        </div>
+        {% endif %} -->
+
         {% if page.role %}
           <div class="project-role">
             <strong>Role </strong><span>{{ page.role }}</span>
           </div>
         {% endif %}
+
+        <!-- {% if page.phases %}
+        <div class="project-phases">
+          <strong>Phases </strong><span>{{ page.phases }}</span>
+        </div>
+        {% endif %} -->
+
+        <!-- {% if page.storeys or page.area %}
+        <div class="project-sub-heading">
+          <strong>SIZE</strong>
+        </div>
+        {% endif %} -->
+
+        <!-- {% if page.storeys %}
+          <div class="project-storeys">
+            <strong>Storeys </strong><span>{{ page.storeys }}</span>
+          </div>
+        {% endif %} -->
+
+        {% if page.area %}
+        <div class="project-area">
+          <strong>Area (ft²) </strong><span>{{ page.area }}</span>
+        </div>
+        {% endif %}
+
+        <!-- {% if page.construction-duration or page.budget or page.delivery-method %}
+        <div class="project-sub-heading">
+          <strong>CONSTRUCTION</strong>
+        </div>
+        {% endif %} -->
+
+        {% if page.storeys %}
+        <div class="construction-duration">
+          <strong>Duration </strong><span>{{ page.construction-duration }}</span>
+        </div>
+        {% endif %}
+
+        {% if page.area %}
+        <div class="project-budget">
+          <strong>Budget </strong><span>{{ page.budget }}</span>
+        </div>
+        {% endif %}
+
+        <!-- {% if page.area %}
+        <div class="delivery-method">
+          <strong>Delivery </strong><span>{{ page.delivery-method }}</span>
+        </div>
+        {% endif %} -->
 
       </div>
 

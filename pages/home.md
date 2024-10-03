@@ -2,7 +2,8 @@
 layout: home
 permalink: "/"
 title: "<strong>Layer</strong> Architecture Inc."
-description: "We are a full-service architectural office specialised in repurposing and layering onto the build environment for the the next era."
+description: "If carbon neutrality is the goal, a layered approach to architecture – where remnants of history are integrated with future development – can produce a more complex and rewarding setting that helps us get there."
+
 
 meta_description: "Layer Architecture Inc. | Toronto"
 meta_title: Layer Architecture Inc.

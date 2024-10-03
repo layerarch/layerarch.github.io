@@ -6,7 +6,7 @@ date: 2020-08-13
 weight: 3
 thumbnail: "/assets/images/gen/projects/project-3-1-thumbnail.webp"
 client: "Region of Valencia"
-categories: ["Development"]
+categories: ["Residential", "Interior"]
 role: "Building Designer"
 gallery:
   - image: "/assets/images/gen/projects/project-3-1.webp"
