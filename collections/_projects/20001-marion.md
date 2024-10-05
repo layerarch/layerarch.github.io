@@ -2,7 +2,6 @@
 layout: project 
 title: "Marian Street Design-Build"
 description: "Breathing new life into Parkdale semi"
-weight: 
 thumbnail: "/assets/images/gen/projects/20001/20001-1-thumbnail.webp"
 categories: ["Residential", "Interior"]
 project-number: 20001
@@ -10,20 +9,18 @@ client: "Private Client"
 location: "Toronto, ON"
 program: "Residential"
 type: "Interior Renovation"
-
+storeys: "1"
+area: "50 ft²"
+budget: "$20K"
+construction-duration: "2020"
 role: "Designer-Builder"
 phases: "PD, SD, DD, CD, TE, CA, PO"
-
-storeys: "1"
-area: "50"
-
-construction-duration: "2020"
-budget: "$20K"
 delivery-method: "Design-Build"
+weight: 
 
 gallery:
   - image: "/assets/images/gen/projects/20001/20001-1.webp"
-    caption: "<strong>Urban Renewal:</strong> Before & after snapshots of successful water works revitalization."
+    caption: "<strong>Urban Renewal:</strong> Before & after snapshots of successful water revitalization."
   - image: "/assets/images/gen/projects/20001/20001-6.webp"
     caption: "<strong>Urban Renewal:</strong> Before & after snapshots of successful water works revitalization."
   - image: "/assets/images/gen/projects/20001/20001-3.webp"

@@ -1,3 +1,5 @@
+File marketing images in marketing/images folder
+create "crop" subdirectory then copy images you place to use in that folder.
 1) crop images from pdfsopen jpgs.
 2) rename using $D-#
 3) resize main image to 3:2 aspect ratio, temporarily save at full resolution as A (A should have more height than B - side extents remain same for both)

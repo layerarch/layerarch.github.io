@@ -53,11 +53,11 @@ body_classes: page-project
         </div>
         {% endif %} -->
 
-        {% if page.role %}
+        <!-- {% if page.role %}
           <div class="project-role">
             <strong>Role </strong><span>{{ page.role }}</span>
           </div>
-        {% endif %}
+        {% endif %} -->
 
         <!-- {% if page.phases %}
         <div class="project-phases">
@@ -79,7 +79,7 @@ body_classes: page-project
 
         {% if page.area %}
         <div class="project-area">
-          <strong>Area (ft²) </strong><span>{{ page.area }}</span>
+          <strong>Area </strong><span>{{ page.area }}</span>
         </div>
         {% endif %}
 
@@ -89,15 +89,15 @@ body_classes: page-project
         </div>
         {% endif %} -->
 
-        {% if page.storeys %}
-        <div class="construction-duration">
-          <strong>Duration </strong><span>{{ page.construction-duration }}</span>
+        {% if page.budget %}
+        <div class="project-budget">
+          <strong>Budget </strong><span>{{ page.budget }}</span>
         </div>
         {% endif %}
 
-        {% if page.area %}
-        <div class="project-budget">
-          <strong>Budget </strong><span>{{ page.budget }}</span>
+        {% if page.storeys %}
+        <div class="construction-duration">
+          <strong>Construction </strong><span>{{ page.construction-duration }}</span>
         </div>
         {% endif %}
 
