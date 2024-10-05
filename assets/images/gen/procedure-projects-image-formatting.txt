@@ -1,0 +1,25 @@
+1) crop images from pdfsopen jpgs.
+2) rename using $D-#
+3) resize main image to 3:2 aspect ratio, temporarily save at full resolution as A (A should have more height than B - side extents remain same for both)
+4) copy A and resize to 16:9 aspect ratio and resample to save as B
+5) resample A to A resolution 
+6) decide which B to be used as thumbnail, copy and resize to create C
+7) reformat all to .webp
+
+A) "project-1-1.webp" 1280 x 853 (3:2) @ 72 dpi ####!TYPICAL USAGE!####
+	1280 x 1920 for portait images
+B) "project-1-1-large.webp" 1920 x 1080 (16:9) @ 72 dpi ####!NOT USED!####
+C) "project-1-1-thumbnail.webp" 1280 x 720 (16:9) @ 72 dpi ####!ONLY ONE PER PROJECT!####
+
+
+other aspect ratios for A? 
+	1240 x 698 (16:9)
+	1240 x 875 (1.42:1)	
+	1240 x 937 (1.32:1)
+	1240 x 1240 (1:1)
+	1240 x 1571 (1.27:1)
+	1240 x 1757 (1.42:1)
+	1240 x 1860 (2:3)
+	
+	
+skip B altogether?
