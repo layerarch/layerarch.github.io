@@ -20,11 +20,11 @@ main:
   
 
 footer_primary:
-  - name: "Marion Street Interior Renovation"
+  - name: "Marion Renovation"
     url: /projects/20001/
   - name: "Lonsmount Addition"
     url: /projects/23004/
-  - name: "Westove Barn Addition"
+  - name: "Westove Addition"
     url: /projects/16001/
   - name: "Project 4"
     url: /projects/project-4/
