@@ -3,15 +3,16 @@ layout: default
 body_classes: page-service
 ---
 
-<article class="service-page">
-  <header class="service-header">
-    <h1>{{ page.title }}</h1>
-  </header>
-
-  <section class="service-content">
-    <p>{{ page.description }}</p>
-    <div class="service-details">
-      {{ content }}
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% include framework/heading.html
+          title=page.title
+          description=page.description
+        %}
+        {{ content }}
+      </div>
     </div>
-  </section>
-</article>
+  </div>
+</div>

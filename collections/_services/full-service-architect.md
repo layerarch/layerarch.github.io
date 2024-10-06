@@ -3,6 +3,7 @@ layout: service
 title: Full-Service Architect
 description: We offer comprehensive architectural services, from concept design to construction administration.
 permalink: /services/full-service-architect/
+weight: 1
 ---
 
 At Layer Architecture Inc., our full-service architectural approach ensures that your project is expertly managed through all stages of the design and construction process. Our services include:

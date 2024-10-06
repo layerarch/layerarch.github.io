@@ -1,0 +1,59 @@
+---
+layout: default
+body_classes: page-service
+---
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% include framework/heading.html
+          title=page.title
+          description=page.description
+        %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% assign cards = site.services | sort: 'weight' | reverse %}
+{% assign limit = page.services.limit | default: 999 %}
+{% assign sort_by = page.services.sort | default: 'date' %}
+{% assign columns =  page.services.columns | default: 3 %}
+{% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
+{% if sort_by == 'weight' %}
+  {% assign cards = site.services | sort: 'weight' %}
+{% endif %}
+
+{% if cards.size > 0 %}
+<div class="section pt-0">
+  <div class="container">
+    <div class="row">
+
+      {% include framework/grid-header.html 
+        heading=page.services.heading 
+        sub_heading=page.services.sub_heading 
+      %}
+     
+      {% for card in cards limit: limit %}
+      <div
+        class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0">
+        {% include theme/cards/card-service.html
+          title=card.title
+          description=card.description
+          url=card.url
+        %}
+      </div>
+      {% endfor %}
+
+      {% include framework/grid-footer.html 
+        view_more_button_text=page.services.view_more_button_text
+        view_more_button_link=page.services.view_more_button_link
+        align="right"
+        icon="fa-arrow-right"
+      %}
+
+    </div>
+  </div>
+</div>
+{% endif %}

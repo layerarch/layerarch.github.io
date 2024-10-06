@@ -71,6 +71,55 @@ body_classes: page-home
 </div>
 {% endif %}
 
+{% assign cards = site.services | sort: 'weight' | reverse %}
+{% assign limit = page.services.limit | default: 999 %}
+{% assign sort_by = page.services.sort | default: 'date' %}
+{% assign columns =  page.services.columns | default: 3 %}
+{% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
+{% if sort_by == 'weight' %}
+  {% assign cards = site.services | sort: 'weight' %}
+{% endif %}
+
+<div class="section pt-0">
+  <div class="container">
+    <div class="row">
+
+      {% capture formatted_heading %}
+      <underline>{{ page.services.heading }}</underline>
+      {% endcapture %}
+
+      {% include framework/grid-header.html 
+        heading=formatted_heading
+        sub_heading=page.services.sub_heading 
+      %}
+      
+      {% for card in cards limit: limit %}
+      <div
+        class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0">
+        {% include theme/cards/card-service.html
+          title=card.title
+          description=card.description
+          thumbnail=card.thumbnail
+          categories=card.categories
+          date=card.date
+          url=card.url
+          client=card.client
+        %}
+      </div>
+      {% endfor %}
+        
+      {% include framework/grid-footer.html 
+        view_more_button_text=page.services.view_more_button_text
+        view_more_button_link=page.services.view_more_button_link
+        align="right"
+        icon="fa-arrow-right"
+      %}
+
+      </div>
+    </div>
+  </div>
+</div>
+
 {% assign cards = site.posts | sort: 'date' | reverse %}
 {% assign limit = page.posts.limit | default: 3 %}
 {% assign sort_by = page.posts.sort | default: 'date' %}
@@ -80,34 +129,6 @@ body_classes: page-home
   {% assign cards = cards | sort: 'weight' %}
 {% endif %}
 
-
-<div class="section pt-0">
-  <div class="container">
-    <div class="row">
-      {% capture formatted_heading %}
-      <underline>{{ page.services.heading }}</underline>
-      {% endcapture %}
-
-      {% include framework/grid-header.html 
-        heading=formatted_heading
-        sub_heading=page.services.sub_heading 
-      %}
-        <div class="grid-container">
-          {%- assign services = site.pages | where_exp: "page", "page.layout == 'service'" | slice: 0, 9 -%}
-          {%- for service in services -%}
-              <div class="service-box">
-                  <h3><a href="{{ service.url | relative_url }}">{{ service.title }}</a></h3>
-                  <p>{{ service.description | truncatewords: 15 }}</p>
-              </div>
-          {%- endfor -%}
-        </div>
-        <div class="centered-button">
-          <a href="{{ site.baseurl }}/services/" class="button">View All Services</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 {% if cards.size > 0 %}

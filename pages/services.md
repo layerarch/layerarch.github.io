@@ -1,19 +1,14 @@
 ---
-layout: basic
-title: Services We Offer
+layout: services
+title: Services
 permalink: "/services/"
----
 
-- Full-Service Architect
-- Architectural Drawings
-- Feasibility Studies
-- Concept Design Development
-- Massing Studies
-- Building Envelope Rehabilitation
-- Energy Effeciency Upgrades
-- Renovation-Addition
-- Adaptive Re-use
-- Land-Use Planning
-- General Review
-- Construction Contract Administration
-- Project Coordination
+services:
+  heading: "" # "Projects"
+  sub_heading: "" # "A collection of our recent work"
+  limit: 96
+  sort: weight # date | weight
+  view_more_button_text: "" # "More Projects"
+  view_more_button_link: "" # "/projects"
+  columns: 3 # 1 | 2 | 3 | 4
+---
