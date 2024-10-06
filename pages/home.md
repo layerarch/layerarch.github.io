@@ -10,13 +10,22 @@ meta_title: Layer Architecture Inc.
 subscribe: false
 
 projects:
-  heading: "" # "Projects"
+  heading: "Project Spotlight" # "Projects"
   sub_heading: "" # "A collection of our recent work"
   limit: 4
   sort: weight # date | weight
-  view_more_button_text: "" # "More Projects"
-  view_more_button_link: "" # "/projects"
+  view_more_button_text: "More Projects" # "More Projects"
+  view_more_button_link: "/projects" # "/projects"
   columns: 2 # 1 | 2 | 3 | 4
+
+services:
+  heading: "Services"
+  sub_heading: "" # "Services we offer"
+  limit: 6
+  sort: weight # date | weight
+  view_more_button_text: "View All Services" # "More Projects"
+  view_more_button_link: "/services" # "/projects"
+  columns: 3 # 1 | 2 | 3 | 4
 
 posts:
   heading: "Recent Posts"

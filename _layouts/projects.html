@@ -17,13 +17,16 @@ body_classes: page-projects
 </div>
 
 
-{% assign cards = site.projects | sort: 'date' | reverse %}
+{% assign cards = site.projects | sort: 'project-number' | reverse %}
 {% assign limit = page.projects.limit | default: 999 %}
 {% assign sort_by = page.projects.sort | default: 'date' %}
 {% assign columns =  page.projects.columns | default: 3 %}
 {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
 {% if sort_by == 'weight' %}
   {% assign cards = site.projects | sort: 'weight' %}
+{% endif %}
+{% if sort_by == 'project-number' %}
+  {% assign cards = site.projects | sort: 'project-number' | reverse %}
 {% endif %}
 
 {% if cards.size > 0 %}

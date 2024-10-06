@@ -40,4 +40,9 @@
     color: var(--color-base-text-2);
     margin-top: 6px;
   }
+  underline {
+    font-style: normal;
+    text-decoration-line: underline;
+    text-decoration-color: var(--color-primary-bg);
+  }
 }

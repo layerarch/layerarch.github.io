@@ -30,11 +30,20 @@ body_classes: page-home
   <div class="container">
     <div class="row">
 
+      {% capture formatted_heading %}
+        <underline>{{ page.projects.heading }}</underline>
+      {% endcapture %}
+
       {% include framework/grid-header.html 
+        heading=formatted_heading
+        sub_heading=page.projects.sub_heading 
+      %}
+
+      <!-- {% include framework/grid-header.html 
         heading=page.projects.heading 
         sub_heading=page.projects.sub_heading 
       %}
-     
+      -->
       {% for card in cards limit: limit %}
       <div
         class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0">
@@ -75,8 +84,14 @@ body_classes: page-home
 <div class="section pt-0">
   <div class="container">
     <div class="row">
-      <div class="project-sub-heading">
-        <strong>SERVICES</strong>
+      {% capture formatted_heading %}
+      <underline>{{ page.services.heading }}</underline>
+      {% endcapture %}
+
+      {% include framework/grid-header.html 
+        heading=formatted_heading
+        sub_heading=page.services.sub_heading 
+      %}
         <div class="grid-container">
           {%- assign services = site.pages | where_exp: "page", "page.layout == 'service'" | slice: 0, 9 -%}
           {%- for service in services -%}
@@ -100,10 +115,19 @@ body_classes: page-home
   <div class="container">
     <div class="row">
 
+      {% capture formatted_heading %}
+        <underline>{{ page.posts.heading }}</underline>
+      {% endcapture %}
+
       {% include framework/grid-header.html 
-        heading=page.posts.heading 
+        heading=formatted_heading
         sub_heading=page.posts.sub_heading 
       %}
+
+      <!-- {% include framework/grid-header.html 
+        heading=page.posts.heading 
+        sub_heading=page.posts.sub_heading 
+      %} -->
 
       {% for card in cards limit: limit %}
       <div class="col-12 col-md-4 {{ columns }} {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mb-3 mb-md-6">
