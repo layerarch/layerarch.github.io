@@ -23,7 +23,7 @@ services:
   sub_heading: "" # "Services we offer"
   limit: 6
   sort: weight # date | weight
-  view_more_button_text: "View All Services" # "More Projects"
+  view_more_button_text: "More Services" # "More Projects"
   view_more_button_link: "/services" # "/projects"
   columns: 3 # 1 | 2 | 3 | 4
 
