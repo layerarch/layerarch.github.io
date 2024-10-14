@@ -1,3 +1,4 @@
+<!-- delete this page? -->
 {% assign title = include.title %}
 {% assign description = include.description %}
 {% assign thumbnail = include.thumbnail %}
@@ -10,6 +11,8 @@
 {% assign style = include.style | default: "column" %}
 {% assign show_read_more = include.show_read_more %}
 {% assign client = include.client %}
+{% assign program = include.program %}
+{% assign type = include.type %}
 {% assign thumbnail_size = include.thumbnail_size %}
 
 <div class="card card-project card-{{ style }} {% if thumbnail %}card-has-thumbnail{% endif %} {% if icon or fa_icon %}card-has-icon{% endif %}">
@@ -26,9 +29,15 @@
         <a href="{{ url | relative_url }}">{{ title }}</a>
       </h2>
     </div>
-    {% if client %}
-      <div class="card-client">
-        {{ client }}
+    {% if program or type %}
+      <div class="card-program">
+        {% if program and type %}
+          {{ program }} | {{ type }}
+        {% elsif program %}
+          {{ program }}
+        {% elsif type %}
+          {{ type }}
+        {% endif %}
       </div>
     {% endif %}
   </div>
