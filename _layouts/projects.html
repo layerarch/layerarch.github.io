@@ -16,6 +16,38 @@ body_classes: page-projects
   </div>
 </div>
 
+<!-- Filters Section -->
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <!-- Occupancy Filter -->
+      <div class="filter-row">
+        <label for="occupancy-filter">Occupancy:</label>
+        <select id="occupancy-filter" class="filter">
+          <option value="">All</option>
+          <option value="Assembly">Assembly</option>
+          <option value="Commercial">Commercial</option>
+          <option value="Residential">Residential</option>
+          <option value="Industrial">Industrial</option>
+          <option value="Institutional">Institutional</option>
+        </select>
+      </div>
+
+      <!-- Type Filter -->
+      <div class="filter-row">
+        <label for="type-filter">Type:</label>
+        <select id="type-filter" class="filter">
+          <option value="">All</option>
+          <option value="new construction">New Construction</option>
+          <option value="interior renovation">Interior Renovation</option>
+          <option value="adaptive reuse">Adaptive Reuse</option>
+          <option value="addition">Addition</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 {% assign cards = site.projects | sort: 'project-number' | reverse %}
 {% assign limit = page.projects.limit | default: 999 %}
@@ -52,6 +84,7 @@ body_classes: page-projects
           client=card.client
           program=card.program
           type=card.type
+          occupancy=card.occupancy
         %}
       </div>
       {% endfor %}
@@ -67,3 +100,37 @@ body_classes: page-projects
   </div>
 </div>
 {% endif %}
+
+<!-- JavaScript for Filtering -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const occupancyFilter = document.getElementById("occupancy-filter");
+    const typeFilter = document.getElementById("type-filter");
+    const cards = document.querySelectorAll(".card-project");
+
+    function filterProjects() {
+      const selectedOccupancy = occupancyFilter.value.toLowerCase();
+      const selectedType = typeFilter.value.toLowerCase();
+
+      cards.forEach(card => {
+        const cardOccupancy = card.getAttribute("occupancy");
+        const cardType = card.getAttribute("type");
+
+        // Check if the card matches the selected filters
+        const matchesOccupancy = selectedOccupancy === "" || cardOccupancy === selectedOccupancy;
+        const matchesType = selectedType === "" || cardType === selectedType;
+
+        // Show or hide the card based on filter matches
+        if (matchesOccupancy && matchesType) {
+          card.style.display = "";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    }
+
+    // Add event listeners to the filters
+    occupancyFilter.addEventListener("change", filterProjects);
+    typeFilter.addEventListener("change", filterProjects);
+  });
+</script>
