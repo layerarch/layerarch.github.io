@@ -16,35 +16,61 @@ body_classes: page-projects
   </div>
 </div>
 
+
+
 <!-- Filters Section -->
 <div class="container">
   <div class="row">
-    <div class="col-12">
-      <!-- Occupancy Filter -->
-      <div class="filter-row">
-        <label for="occupancy-filter">Occupancy:</label>
-        <select id="occupancy-filter" class="filter">
-          <option value="">All</option>
-          <option value="Assembly">Assembly</option>
-          <option value="Commercial">Commercial</option>
-          <option value="Residential">Residential</option>
-          <option value="Industrial">Industrial</option>
-          <option value="Institutional">Institutional</option>
-        </select>
+     <div class="col-12">
+        <!-- Occupancy Filter -->
+        <div class="filter-row">
+          <div class="row mb-1">
+            <label>Occupancy</label>  
+          </div>  
+           <div class="row mb-2">
+              <div class="col-2">
+                 <button class="btn btn-pill filter-btn active" data-filter="occupancy" data-value="">All Uses</button>
+              </div>
+              <div class="col-2">
+                 <button class="btn btn-pill filter-btn" data-filter="occupancy" data-value="assembly">Assembly</button>
+              </div>
+              <div class="col-2">
+                 <button class="btn btn-pill filter-btn" data-filter="occupancy" data-value="commercial">Commercial</button>
+              </div>
+              <div class="col-2">
+                 <button class="btn btn-pill filter-btn" data-filter="occupancy" data-value="residential">Residential</button>
+              </div>
+              <div class="col-2">
+                 <button class="btn btn-pill filter-btn" data-filter="occupancy" data-value="industrial">Industrial</button>
+              </div>
+              <div class="col-2">
+                 <button class="btn btn-pill filter-btn" data-filter="occupancy" data-value="institutional">Institutional</button>
+              </div>
+           </div>
+        </div>
+     </div>
+     <div class="filter-row">
+      <div class="row mb-1">
+        <label>Type</label>
       </div>
-
-      <!-- Type Filter -->
-      <div class="filter-row">
-        <label for="type-filter">Type:</label>
-        <select id="type-filter" class="filter">
-          <option value="">All</option>
-          <option value="new construction">New Construction</option>
-          <option value="interior renovation">Interior Renovation</option>
-          <option value="adaptive reuse">Adaptive Reuse</option>
-          <option value="addition">Addition</option>
-        </select>
-      </div>
-    </div>
+      <div class="row mb-2">
+         <div class="col-2">
+            <button class="btn btn-pill filter-btn active" data-filter="type" data-value="">All Types</button>
+          </div>
+          <div class="col-2">
+            <button class="btn btn-pill filter-btn" data-filter="type" data-value="new construction">New Build</button>
+          </div>
+          <div class="col-2">
+            <button class="btn btn-pill filter-btn" data-filter="type" data-value="interior renovation">Interior</button>
+          </div>
+          <div class="col-2">
+            <button class="btn btn-pill filter-btn" data-filter="type" data-value="addition">Addition</button>
+          </div>
+          <div class="col-2">
+            <button class="btn btn-pill filter-btn" data-filter="type" data-value="adaptive reuse">Adaptive Reuse</button>
+          </div>
+        </div>
+     </div>
   </div>
 </div>
 
@@ -64,16 +90,13 @@ body_classes: page-projects
 {% if cards.size > 0 %}
 <div class="section pt-0">
   <div class="container">
+    {% include framework/grid-header.html 
+      heading=page.projects.heading 
+      sub_heading=page.projects.sub_heading 
+    %}
     <div class="row">
-
-      {% include framework/grid-header.html 
-        heading=page.projects.heading 
-        sub_heading=page.projects.sub_heading 
-      %}
-     
       {% for card in cards limit: limit %}
-      <div
-        class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0">
+      <div class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0 card-container" occupancy="{{ card.occupancy }}" type="{{ card.type }}">
         {% include theme/cards/card-project.html
           title=card.title
           description=card.description
@@ -102,35 +125,5 @@ body_classes: page-projects
 {% endif %}
 
 <!-- JavaScript for Filtering -->
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const occupancyFilter = document.getElementById("occupancy-filter");
-    const typeFilter = document.getElementById("type-filter");
-    const cards = document.querySelectorAll(".card-project");
+<script src="{{ '/assets/js/projects.js' | relative_url }}"></script>
 
-    function filterProjects() {
-      const selectedOccupancy = occupancyFilter.value.toLowerCase();
-      const selectedType = typeFilter.value.toLowerCase();
-
-      cards.forEach(card => {
-        const cardOccupancy = card.getAttribute("occupancy");
-        const cardType = card.getAttribute("type");
-
-        // Check if the card matches the selected filters
-        const matchesOccupancy = selectedOccupancy === "" || cardOccupancy === selectedOccupancy;
-        const matchesType = selectedType === "" || cardType === selectedType;
-
-        // Show or hide the card based on filter matches
-        if (matchesOccupancy && matchesType) {
-          card.style.display = "";
-        } else {
-          card.style.display = "none";
-        }
-      });
-    }
-
-    // Add event listeners to the filters
-    occupancyFilter.addEventListener("change", filterProjects);
-    typeFilter.addEventListener("change", filterProjects);
-  });
-</script>
