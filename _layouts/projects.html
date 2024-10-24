@@ -20,60 +20,67 @@ body_classes: page-projects
 
 <!-- Filters Section -->
 <div class="container">
-  <div class="row">
-     <div class="col-12">
-        <!-- Occupancy Filter -->
-        <div class="filter-row">
-          <div class="row mb-1">
-            <label>Occupancy</label>  
-          </div>  
-           <div class="row mb-2">
-              <div class="col-2">
-                 <button class="btn btn-pill filter-btn active" data-filter="occupancy" data-value="">All Uses</button>
-              </div>
-              <div class="col-2">
-                 <button class="btn btn-pill filter-btn" data-filter="occupancy" data-value="assembly">Assembly</button>
-              </div>
-              <div class="col-2">
-                 <button class="btn btn-pill filter-btn" data-filter="occupancy" data-value="commercial">Commercial</button>
-              </div>
-              <div class="col-2">
-                 <button class="btn btn-pill filter-btn" data-filter="occupancy" data-value="residential">Residential</button>
-              </div>
-              <div class="col-2">
-                 <button class="btn btn-pill filter-btn" data-filter="occupancy" data-value="industrial">Industrial</button>
-              </div>
-              <div class="col-2">
-                 <button class="btn btn-pill filter-btn" data-filter="occupancy" data-value="institutional">Institutional</button>
-              </div>
-           </div>
-        </div>
-     </div>
-     <div class="filter-row">
-      <div class="row mb-1">
-        <label>Type</label>
+  <div class="filter-row">
+    <div class="row mb-1">
+      <label>Type Filter</label>
+    </div>
+    <div class="row mb-2">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
+        <button class="btn btn-pill filter-btn active" data-filter="type" data-value="">All Types</button>
       </div>
-      <div class="row mb-2">
-         <div class="col-2">
-            <button class="btn btn-pill filter-btn active" data-filter="type" data-value="">All Types</button>
-          </div>
-          <div class="col-2">
-            <button class="btn btn-pill filter-btn" data-filter="type" data-value="new construction">New Build</button>
-          </div>
-          <div class="col-2">
-            <button class="btn btn-pill filter-btn" data-filter="type" data-value="interior renovation">Interior</button>
-          </div>
-          <div class="col-2">
-            <button class="btn btn-pill filter-btn" data-filter="type" data-value="addition">Addition</button>
-          </div>
-          <div class="col-2">
-            <button class="btn btn-pill filter-btn" data-filter="type" data-value="adaptive reuse">Adaptive Reuse</button>
-          </div>
-        </div>
-     </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
+        <button class="btn btn-pill filter-btn" data-filter="type" data-value="new construction">New Build</button>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
+        <button class="btn btn-pill filter-btn" data-filter="type" data-value="interior renovation">Interior</button>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
+        <button class="btn btn-pill filter-btn" data-filter="type" data-value="addition">Addition</button>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
+        <button class="btn btn-pill filter-btn" data-filter="type" data-value="adaptive reuse">Adaptive Reuse</button>
+      </div>
+    </div>
+  </div>
+  <!-- Program Filter -->
+  <div class="filter-row">
+    <div class="row mb-1">
+      <label>Program Filter</label>  
+    </div>  
+    <div class="row mb-2">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
+        <button class="btn btn-pill filter-btn active" data-filter="program" data-value="">All Uses</button>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
+        <button class="btn btn-pill filter-btn" data-filter="program" data-value="residential">Residential</button>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
+        <button class="btn btn-pill filter-btn" data-filter="program" data-value="office">Office</button>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
+        <button class="btn btn-pill filter-btn" data-filter="program" data-value="retail">Retail</button>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
+        <button class="btn btn-pill filter-btn" data-filter="program" data-value="restaurant/bar">Restaurant/Bar</button>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
+        <button class="btn btn-pill filter-btn" data-filter="program" data-value="mixed use">Mixed Use</button>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
+        <button class="btn btn-pill filter-btn" data-filter="program" data-value="museum/gallery">Museum/Gallery</button>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
+        <button class="btn btn-pill filter-btn" data-filter="program" data-value="leisure">Leisure</button>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
+        <button class="btn btn-pill filter-btn" data-filter="program" data-value="parking">Parking</button>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
+        <button class="btn btn-pill filter-btn" data-filter="program" data-value="pavillion">Pavillion</button>
+      </div>
+    </div>
   </div>
 </div>
-
 
 {% assign cards = site.projects | sort: 'project-number' | reverse %}
 {% assign limit = page.projects.limit | default: 999 %}
@@ -96,7 +103,7 @@ body_classes: page-projects
     %}
     <div class="row">
       {% for card in cards limit: limit %}
-      <div class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0 card-container" occupancy="{{ card.occupancy }}" type="{{ card.type }}">
+      <div class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0 card-container" program="{{ card.program | join: '/' }}" type="{{ card.type }}">
         {% include theme/cards/card-project.html
           title=card.title
           description=card.description

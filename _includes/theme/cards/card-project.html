@@ -13,10 +13,10 @@
 {% assign program = include.program %}
 {% assign type = include.type %}
 {% assign occupancy = include.occupancy %}
+{% assign status = include.status %}
 {% assign thumbnail_size = include.thumbnail_size %}
 
-<div class="card card-project card-{{ style }} {% if thumbnail %}card-has-thumbnail{% endif %} {% if icon or fa_icon %}card-has-icon{% endif %}"
-    occupancy="{{ occupancy | downcase }}" type="{{ type | downcase }}">
+<div class="card card-project card-{{ style }} {% if thumbnail %}card-has-thumbnail{% endif %} {% if icon or fa_icon %}card-has-icon{% endif %}">
 
   {% if thumbnail %}
     <div class="card-thumbnail {% if thumbnail_size %}card-thumbnail-{{ thumbnail_size }}{% endif %}">
@@ -33,7 +33,7 @@
     {% if program or type %}
       <div class="card-program">
         {% if program and type %}
-          {{ program }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ type }}
+          {{ program | join: '/' }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ type }}
         {% elsif program %}
           {{ program }}
         {% elsif type %}

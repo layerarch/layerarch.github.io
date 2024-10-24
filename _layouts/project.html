@@ -25,7 +25,7 @@ body_classes: page-project
 
         {% if page.program %}
           <div class="project-program">
-            <strong>Program </strong><span>{{ page.program }}</span>
+            <strong>Program </strong><span>{{ page.program | join: '/' }}</span>
           </div>
         {% endif %}
 
@@ -71,11 +71,11 @@ body_classes: page-project
         </div>
         {% endif %} -->
 
-        <!-- {% if page.storeys %}
+        {% if page.storeys %}
           <div class="project-storeys">
             <strong>Storeys </strong><span>{{ page.storeys }}</span>
           </div>
-        {% endif %} -->
+        {% endif %}
 
         {% if page.area %}
         <div class="project-area">
@@ -95,11 +95,17 @@ body_classes: page-project
         </div>
         {% endif %}
 
-        {% if page.storeys %}
+        {% if page.status %}
+        <div class="project-status">
+          <strong>Status </strong><span>{{ page.status }}</span>
+        </div>
+        {% endif %}
+
+        <!-- {% if page.construction-duration %}
         <div class="construction-duration">
           <strong>Construction </strong><span>{{ page.construction-duration }}</span>
         </div>
-        {% endif %}
+        {% endif %} -->
 
         <!-- {% if page.area %}
         <div class="delivery-method">
