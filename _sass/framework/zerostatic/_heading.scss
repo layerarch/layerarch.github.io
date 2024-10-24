@@ -23,6 +23,7 @@
       line-height: 1.1;
       font-weight: 700;
       font-family: var(--font-family-heading);
+      padding-top: 60px;
       @include media-breakpoint-up(md) {
         font-size: 46px;
         line-height: 1;

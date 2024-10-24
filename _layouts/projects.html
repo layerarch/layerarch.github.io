@@ -22,63 +22,78 @@ body_classes: page-projects
 <div class="container">
   <div class="filter-row">
     <div class="row mb-1">
-      <label>Type Filter</label>
+      <div class="col-12">
+        <button class="btn btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#filterType" aria-expanded="false" aria-controls="filterType">
+          ≡ TYPE FILTER
+        </button>
+      </div>
     </div>
-    <div class="row mb-2">
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-        <button class="btn btn-pill filter-btn active" data-filter="type" data-value="">All Types</button>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-        <button class="btn btn-pill filter-btn" data-filter="type" data-value="new construction">New Build</button>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-        <button class="btn btn-pill filter-btn" data-filter="type" data-value="interior renovation">Interior</button>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-        <button class="btn btn-pill filter-btn" data-filter="type" data-value="addition">Addition</button>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-        <button class="btn btn-pill filter-btn" data-filter="type" data-value="adaptive reuse">Adaptive Reuse</button>
+    <div class="collapse" id="filterType">
+      <div class="row mb-2">
+        <div class="col-6 col-md-3 col-lg-2 mb-2">
+          <button class="btn btn-pill filter-btn active" data-filter="type" data-value="">All Types</button>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-2">
+          <button class="btn btn-pill filter-btn" data-filter="type" data-value="new construction">New Build</button>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-2">
+          <button class="btn btn-pill filter-btn" data-filter="type" data-value="interior renovation">Interior</button>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-2">
+          <button class="btn btn-pill filter-btn" data-filter="type" data-value="addition">Addition</button>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-2">
+          <button class="btn btn-pill filter-btn" data-filter="type" data-value="adaptive reuse">Adaptive Reuse</button>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-2">
+          <button class="btn btn-pill filter-btn" data-filter="type" data-value="installation">Installation</button>
+        </div>
       </div>
     </div>
   </div>
   <!-- Program Filter -->
   <div class="filter-row">
     <div class="row mb-1">
-      <label>Program Filter</label>  
-    </div>  
-    <div class="row mb-2">
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-        <button class="btn btn-pill filter-btn active" data-filter="program" data-value="">All Uses</button>
+      <div class="col-12">
+        <button class="btn btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#filterProgram" aria-expanded="false" aria-controls="filterProgram">
+          ≡ PROGRAM FILTER
+        </button> 
       </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-        <button class="btn btn-pill filter-btn" data-filter="program" data-value="residential">Residential</button>
+    </div> 
+    <div class="collapse" id="filterProgram">
+      <div class="row mb-2">
+        <div class="col-6 col-md-3 col-lg-2 mb-2">
+          <button class="btn btn-pill filter-btn active" data-filter="program" data-value="">All Uses</button>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-2">
+          <button class="btn btn-pill filter-btn" data-filter="program" data-value="residential">Residential</button>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-2">
+          <button class="btn btn-pill filter-btn" data-filter="program" data-value="office">Office</button>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-2">
+          <button class="btn btn-pill filter-btn" data-filter="program" data-value="retail">Retail</button>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-2">
+          <button class="btn btn-pill filter-btn" data-filter="program" data-value="restaurant/bar">Restaurant/Bar</button>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-2">
+          <button class="btn btn-pill filter-btn" data-filter="program" data-value="mixed use">Mixed Use</button>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-2">
+          <button class="btn btn-pill filter-btn" data-filter="program" data-value="museum/gallery">Museum/Gallery</button>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-2">
+          <button class="btn btn-pill filter-btn" data-filter="program" data-value="leisure">Leisure</button>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-2">
+          <button class="btn btn-pill filter-btn" data-filter="program" data-value="parking">Parking</button>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-2">
+          <button class="btn btn-pill filter-btn" data-filter="program" data-value="pavillion">Pavillion</button>
+        </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-        <button class="btn btn-pill filter-btn" data-filter="program" data-value="office">Office</button>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-        <button class="btn btn-pill filter-btn" data-filter="program" data-value="retail">Retail</button>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-        <button class="btn btn-pill filter-btn" data-filter="program" data-value="restaurant/bar">Restaurant/Bar</button>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-        <button class="btn btn-pill filter-btn" data-filter="program" data-value="mixed use">Mixed Use</button>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-        <button class="btn btn-pill filter-btn" data-filter="program" data-value="museum/gallery">Museum/Gallery</button>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-        <button class="btn btn-pill filter-btn" data-filter="program" data-value="leisure">Leisure</button>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-        <button class="btn btn-pill filter-btn" data-filter="program" data-value="parking">Parking</button>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-        <button class="btn btn-pill filter-btn" data-filter="program" data-value="pavillion">Pavillion</button>
-      </div>
-    </div>
+    </div> 
   </div>
 </div>
 
@@ -134,3 +149,5 @@ body_classes: page-projects
 <!-- JavaScript for Filtering -->
 <script src="{{ '/assets/js/projects.js' | relative_url }}"></script>
 
+<!-- Include Bootstrap JavaScript (make sure the version matches your Bootstrap CSS) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

@@ -11,6 +11,18 @@
 //   width: 100%; // Ensure it fills the available space
 // }
 
+
+.btn-collapse {
+  font-size: large;
+  text-emphasis: bold;
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  background-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
 /* Custom styles for pill-shaped buttons */
 .btn-pill {
   // border: 2px solid; /* Black border when not selected */
@@ -20,12 +32,14 @@
   background-color: transparent; /* No background color when not selected */
   // color: black;            /* Black text */
   // padding: 0.7rem 1.5rem;  /* Increase top-bottom padding for taller button */
-  line-height: 0;        /* Control the text height */
-  height: 20px;            /* Set a specific height if needed */
+  line-height: 1.2;        /* Control the text height */
+  height: auto;            /* Set a specific height if needed */
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
   text-align: left;
   padding: 0;
   margin: 0;
+  white-space: normal; 
+  word-wrap: break-word; 
 }
 
 /* When the button is active (selected), show background */
