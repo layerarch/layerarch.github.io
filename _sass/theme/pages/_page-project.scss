@@ -27,6 +27,24 @@
 
     }
   }
+  .banner-image {
+    img {
+      vertical-align: bottom;
+      width: 100%;
+      height: auto;
+    }
+    .banner-caption {
+      margin-top: 5px;
+      font-size: 14px;
+      strong {
+        font-weight: 600;
+      }
+      span {
+        color: var(--color-base-text-2);
+        font-weight: 400;
+      }
+    }
+  }
   .gallery {
     .gallery-item {
       .gallery-image {
