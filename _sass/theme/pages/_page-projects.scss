@@ -1,17 +1,3 @@
-// .card-container {
-//   display: grid;
-//   grid-template-columns: repeat(4, 1fr);
-//   width: 100%;
-// }
-
-// .card-container {
-//   display: grid;
-//   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); // Adjust the min-width to your needs
-//   gap: 16px; // Adjust the gap between cards
-//   width: 100%; // Ensure it fills the available space
-// }
-
-
 .btn-collapse {
   font-size: large;
   text-emphasis: bold;
@@ -24,35 +10,28 @@
 }
 
 /* Custom styles for pill-shaped buttons */
-.btn-pill {
-  // border: 2px solid; /* Black border when not selected */
+.btn-text {
   border: none; /* Black border when not selected */
-  // border: 2px solid black; /* Black border when not selected */
-  border-radius: 20px;     /* Pill shape */
   background-color: transparent; /* No background color when not selected */
-  // color: black;            /* Black text */
-  // padding: 0.7rem 1.5rem;  /* Increase top-bottom padding for taller button */
   line-height: 1.2;        /* Control the text height */
   height: auto;            /* Set a specific height if needed */
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
   text-align: left;
   padding: 0;
   margin: 0;
-  white-space: normal; 
-  word-wrap: break-word; 
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 /* When the button is active (selected), show background */
-.btn-pill.active,
-.btn-pill:focus {
+.btn-text.active,
+.btn-text:focus {
   text-decoration-line: underline;
-  // background-color: black; /* Black background on active state */
-  // color: white;            /* White text when active */
+  font-weight: bold;
 }
 
 /* Button hover effect */
-.btn-pill:hover {
-  // background-color: #f0f0f0; /* Light gray on hover */
+.btn-text:hover {
+  text-decoration-line: underline;
 }
 
 /* Card styling */

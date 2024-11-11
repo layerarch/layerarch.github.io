@@ -1,19 +1,66 @@
 ---
 layout: basic
-title: "About Us"
-date: 2018-11-28T15:15:34+10:00
+title: About
 permalink: "/about/"
-description: "Business plan hackathon handshake responsive web design."
-image: "/assets/images/gen/content/content-5.webp"
+description: ""
+# image: "/assets/images/gen/content/content-5.webp"
 ---
 
-# Creating Modern Websites
+# What is Layer Architecture?
 
-Web design encompasses many different skills and disciplines in the production and maintenance of websites.
+Layer Architecture is a Toronto based architecture firm with a special interest in creating buildings which can adapt to future changes in use, are sustainable in their contributions to the built environment, and strike a balance between complexity, beauty, and design. 
 
-Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all. Web design partially overlaps web engineering in the broader scope of web development.
+Layer Architecture is a Toronto based architecture firm with a special interest in creating buildings that are adaptible, sustainable, and aesthetically complex.
 
-## What is Web Design?
+## Adaptability
+
+Accommodate change, xix
+
+Architecture is never finished; it continually evolves as changes in use bring new meaning to space, requiring alterations to the built form.
+
+> "Not to include the uncertainties of use, action, and movement in the definition of architecture meant that architecture's ability to be a factor of social change was simply denied"
+> 
+> -- Bernard Tschumi
+
+The failure to accommodate change in architecture has led to the premature demolition of countless monuments from the past.
+
+The embodied energy of these lost monuments is astronomical. 
+
+# Our Approach to Sustainability
+
+role that adapting existing buildings can play in achiecing a more sustainable built environment, xix
+
+Our approach to sustainability is simple:
+
+> "The greenest building is the one that already exists"
+>
+> -- Carl Elphante
+
+
+By examining the embodied energy of buildings—the energy used to mine, transport, refine, manufacture, and assemble materials—we gain insight into the significant CO₂ emissions associated with construction. When a building stands for over a century, the embodied energy invested in its materials is preserved. Demolishing a building and sending its debris to landfill after less than a decade of use represents a profound failure.
+
+
+## Complexity... Design? 
+
+> "But an architecture of complexity and contradiction has a special obligation toward the whole: its truth must be in its totality or its implications of totality. It must embody the difficult unity of inclusion rather than the easy unity of exclusion"
+>
+> -- Robert Venturi
+
+
+
+
+
+"Ultimately, none of these goals can be realized if the default response to a construction project on a site with an existing building is demolition. This mindset inspired our moniker:
+
+> "Tabula Rasa Non Grata"
+
+where tabula rasa—Latin for 'clean slate'—describes the common approach to development when encountering existing structures, and non grata—meaning 'no more'—represents the stance we must adopt to create a built environment worthy of future protection."
+
+
+
+
+
+
 
 User experience is about how a user interacts with, and experiences, a particular product, system or service. As a UX designer, you should consider the Why, What and How of product use.
 
@@ -44,3 +91,34 @@ There are two primary jobs involved in creating a website: the web designer and 
 ![Design In Figma]({{ "/assets/images/gen/content/content-2.webp" | relative_url }})
 
 Web designers will also have a working knowledge of markup languages such as HTML and CSS, although the extent of their knowledge will differ from one web designer to another.
+
+# A site based approach to embodied energy
+
+Buildings come and go, but land is forever.
+
+A new approach to embodied energy that allocates the energy used to construct, inhabit, and demolish buildings into the land. 
+
+Municipal zoning maps have been around for a while and are used to track and transmit information to the public such as how tall can a building be on a particular site, what occupanies (residential, commercial, industrial) can be constructed on a particular site, and how far back from the property lines must a building be. 
+
+Therefore it is not unreasonable to consider adding an additional category that tracks the embodied energy of a site on this map or something like it. 
+
+But just as you tally up the energy used on the land, you would also track the energy contributed to the grid through the use of solar panels, or CO2 captured and sequesterd from the environment, through the growing of trees for instance. 
+
+explain formula
+
+By utilising this formula here are a few scenarios to showcase how various land use scenarious would play out, and the alternaative behavior that may emerge through its use. 
+
+Scenario #1
+House constructed, total C02 used = x, demolished in 10 years, new house built, trees. 
+
+Scenario #2
+Factory constructed, emmitts major CO2 to environment, factory demolished. Land value plummits, cannot construct anything new, owner builds a forest on their land. 
+
+The owner would have been wiser to utilise cleaner production methods, and construct their facilities with less CO2 intensive materials. 
+
+Scenario #3
+merging of two properties, one with low # one with high #
+(draw little horizontal comic strip format diagrams?)
+
+Scenario #4 
+Good example, layered approach. 
