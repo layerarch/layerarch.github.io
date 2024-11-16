@@ -16,12 +16,7 @@
   },
   {
     "title": "Email",
-    "fa_icon": "fab fa-envelope",
+    "fa_icon": "fas fa-envelope",
     "url": "mailto:mmacneill@layerarch.ca"
-  },
-  {
-    "title": "Mailchimp",
-    "fa_icon": "fab fa-mailchimp",
-    "url": "https://www.instagram.com/layerarch/"
   }
 ]
