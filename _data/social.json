@@ -10,6 +10,16 @@
     "url": "https://www.linkedin.com/company/layerarch/"
   },
   {
+    "title": "Github",
+    "fa_icon": "fab fa-github",
+    "url": "https://www.github.com/layerarch/layerarch.github.io"
+  },
+  {
+    "title": "Email",
+    "fa_icon": "fab fa-envelope",
+    "url": "mailto:mmacneill@layerarch.ca"
+  },
+  {
     "title": "Mailchimp",
     "fa_icon": "fab fa-mailchimp",
     "url": "https://www.instagram.com/layerarch/"

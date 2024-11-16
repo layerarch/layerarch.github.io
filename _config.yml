@@ -133,8 +133,8 @@ header:
 open_graph:
   meta_opengraph_type: "website"
   meta_twitter_card: "summary"
-  meta_twitter_site: "@zerostaticio"
-  meta_twitter_creator: "@zerostaticio"
+  meta_twitter_site: "@layerarch"
+  meta_twitter_creator: "@layerarch"
 
 darkmode:
   enable_dark_mode: true

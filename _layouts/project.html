@@ -125,9 +125,19 @@ body_classes: page-project
         {% endif %} -->
 
       </div>
-
       <div class="col-12 col-md-6 mb-4">
-        <div class="content">{{ content }}</div>
+        <div class="content" id="project-description" style="margin-bottom: 20px; line-height: 1.56;">
+          {{ page.description }}</div>
+        <details id="project-details">
+          <summary class="content" style="padding-top: 0;" onclick="document.getElementById('main-content').style.display='block'; 
+                            document.getElementById('project-description').style.display='none';
+                            this.style.display='none';">
+          Read more
+          </summary>
+        </details>
+        <div id="main-content" style="display: none;">
+          <div class="content">{{ content }}</div>
+        </div>
       </div>
     </div>
 
