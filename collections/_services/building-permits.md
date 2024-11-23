@@ -1,8 +1,9 @@
 ---
 layout: service
-title: Architectural Drawings
+title: Building Permits
 description: We provide detailed architectural drawings for new builds, renovations, and additions.
-permalink: /services/architectural-drawings/
+permalink: /services/building-permits/
+icon: far fa-file-lines
 weight: 2
 ---
 

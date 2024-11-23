@@ -3,6 +3,7 @@ layout: service
 title: Energy Efficiency Upgrades
 description: Enhance your building’s performance with energy-efficient upgrades.
 permalink: /services/energy-efficiency-upgrades/
+icon: fas fa-bolt
 weight: 999
 ---
 
