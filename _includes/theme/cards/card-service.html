@@ -23,6 +23,11 @@
         <a href="{{ url | relative_url }}">{{ title }}</a>
       </h2>
     </div>
+    {% if include.icon %}
+    <div class="card-icon">
+      <i class="{{ include.icon }}"></i>
+    </div>
+    {% endif %}
     {% if description %}
       <div class="card-description">
         {{ description }}

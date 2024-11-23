@@ -39,11 +39,6 @@ body_classes: page-home
         sub_heading=page.projects.sub_heading 
       %}
 
-      <!-- {% include framework/grid-header.html 
-        heading=page.projects.heading 
-        sub_heading=page.projects.sub_heading 
-      %}
-      -->
       {% for card in cards limit: limit %}
       <div
         class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0">
@@ -97,15 +92,11 @@ body_classes: page-home
       
       {% for card in cards limit: limit %}
       <div
-        class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0">
+        class="col-12 col-md-4 col-sm-6 {{ columns }} {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0">
         {% include theme/cards/card-service.html
           title=card.title
           description=card.description
-          thumbnail=card.thumbnail
-          categories=card.categories
-          date=card.date
           url=card.url
-          client=card.client
         %}
       </div>
       {% endfor %}
@@ -131,8 +122,6 @@ body_classes: page-home
   {% assign cards = cards | sort: 'weight' %}
 {% endif %}
 
-
-
 {% if cards.size > 0 %}
 <div class="section section-base-bg-2">
   <div class="container">
@@ -146,11 +135,6 @@ body_classes: page-home
         heading=formatted_heading
         sub_heading=page.posts.sub_heading 
       %}
-
-      <!-- {% include framework/grid-header.html 
-        heading=page.posts.heading 
-        sub_heading=page.posts.sub_heading 
-      %} -->
 
       {% for card in cards limit: limit %}
       <div class="col-12 col-md-4 {{ columns }} {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mb-3 mb-md-6">

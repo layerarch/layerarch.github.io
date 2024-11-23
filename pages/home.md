@@ -10,7 +10,7 @@ meta_title: Layer Architecture Inc.
 subscribe: false
 
 projects:
-  heading: "Project Spotlight" # "Projects"
+  heading: "Projects" # "Projects"
   sub_heading: "" # "A collection of our recent work"
   limit: 4
   sort: weight # date | weight
