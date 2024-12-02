@@ -3,7 +3,7 @@ layout: service
 title: Full-Service Architect
 description: We offer comprehensive architectural services, from concept design to construction administration.
 permalink: /services/full-service-architect/
-icon: fas fa-user-injured
+icon: fas fa-compass-drafting
 weight: 1
 ---
 

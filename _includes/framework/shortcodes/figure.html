@@ -1,9 +1,25 @@
 <figure {% if include.full %} class="figure-full" {% endif %}>
-  <a href="{{ include.link | relative_url }}" target="{{ include.target }}">
-    <img src="{{ include.src | relative_url }}" alt="{{ include.alt }}">
-  </a>
-  <figcaption>
-    <h4>{{ include.title }}</h4>
-    <p>{{ include.caption }}</p>
-  </figcaption>
+  {% if include.link %}
+    <a href="{{ include.link | relative_url }}" {% if include.target %} target="{{ include.target }}" {% endif %}>
+      <img 
+        src="{{ include.src | relative_url }}" 
+        {% if include.alt %} alt="{{ include.alt }}" {% endif %}
+      />
+    </a>
+  {% else %}
+    <img 
+      src="{{ include.src | relative_url }}" 
+      {% if include.alt %} alt="{{ include.alt }}" {% endif %}
+    />
+  {% endif %}
+  {% if include.title or include.caption %}
+    <figcaption>
+      {% if include.title %}
+        <h4>{{ include.title }}</h4>
+      {% endif %}
+      {% if include.caption %}
+        <p>{{ include.caption }}</p>
+      {% endif %}
+    </figcaption>
+  {% endif %}
 </figure>
