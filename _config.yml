@@ -184,12 +184,12 @@ footer:
   enable_menu_footer_primary: true
   enable_menu_footer_secondary: true
   enable_menu_footer_tertiary: false
-  footer_primary_menu_title: "Our Projects"
+  footer_primary_menu_title: "Featured Projects"
   footer_secondary_menu_title: "Company"
   footer_tertiary_menu_title: "Other"
 
 bottom:
   enable_bottom: false # show/hide the entire bottom (below the footer)
   enable_bottom_menu: false # if enabled, the bottom menu can be edited in `_data/menu.yml`
-  copyright_text: "© 2024 Layer Architecture Inc All Rights Reserved"
+  copyright_text: "© 2024 Layer Architecture Inc."
   show_rss_icon: false

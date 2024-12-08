@@ -122,3 +122,18 @@ merging of two properties, one with low # one with high #
 
 Scenario #4 
 Good example, layered approach. 
+
+
+
+Layered architecture, which weaves historical elements into new developments, not only preserves cultural heritage but also minimizes environmental impact by reducing waste and conserving resources. It embodies the philosophy of carbon neutrality by making the most of what already exists, blending the past and future into a cohesive and sustainable narrative.
+
+Layered Architecture: A Sustainable Vision for the Future
+At Layer Architecture Inc., we believe that carbon neutrality isn’t just a goal—it’s a responsibility. Layered architecture, where remnants of the past are thoughtfully integrated with future developments, offers a powerful solution. By repurposing existing structures, materials, and histories, we create designs that are both environmentally responsible and culturally enriched.
+
+This approach reduces waste, preserves embodied carbon in existing materials, and honors the legacy of the built environment. It allows us to balance progress with preservation, designing spaces that respect their context while adapting to contemporary needs.
+
+From revitalizing historic buildings to blending modern interventions into existing urban fabric, our projects embody the principle that sustainable design is about more than reducing impact—it’s about creating lasting value.
+
+
+Preserve the Past, Build for the Future
+At Layer Architecture Inc., we transform sustainability into design by integrating remnants of the past with future-forward development. This layered approach minimizes environmental impact, preserves cultural heritage, and creates spaces that resonate with meaning and purpose.

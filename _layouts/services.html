@@ -37,8 +37,8 @@ body_classes: page-service
      
       {% for card in cards limit: limit %}
       <div
-        class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter mt-md-0">
-        {% include theme/cards/card-service-large.html
+        class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter mt-md-0 {% if forloop.last %}mb-12{% endif %}">
+        {% include theme/cards/card-service.html
           title=card.title
           icon=card.icon
           thumbnail=card.thumbnail

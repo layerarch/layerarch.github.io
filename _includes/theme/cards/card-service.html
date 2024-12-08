@@ -18,6 +18,11 @@
   {% endif %}
 
   <div class="card-content">
+    {% if include.icon %}
+    <div class="card-icon">
+      <i class="{{ include.icon }}"></i>
+    </div>
+    {% endif %}
     <div class="card-title">
       <h2>
         <a href="{{ url | relative_url }}">{{ title }}</a>
@@ -25,7 +30,7 @@
     </div>
     {% if description %}
       <div class="card-description">
-        {{ description }}
+        <p>{{ description }}</p>
       </div>
     {% endif %}
   </div>

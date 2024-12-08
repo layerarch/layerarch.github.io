@@ -8,9 +8,9 @@ main:
   - name: Services
     url: /services/
     weight: 3
-  - name: Blog
-    url: /blog/
-    weight: 4
+  # - name: Blog
+  #   url: /blog/
+  #   weight: 4
   - name: About
     url: /about/
     weight: 5
@@ -30,8 +30,8 @@ footer_primary:
     url: /projects/22001/
 
 footer_secondary:
-  - name: Blog
-    url: /blog/
+  - name: Services
+    url: /services/
     weight: 2
   - name: About
     url: /about/

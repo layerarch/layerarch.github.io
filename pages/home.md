@@ -1,8 +1,8 @@
 ---
 layout: home
 permalink: "/"
-title: "<strong>Layer</strong> Architecture Inc."
-description: "If carbon neutrality is the goal, a layered approach to architecture – where remnants of history are integrated with future development – can produce a more complex and rewarding setting that helps us get there."
+title: "Tabula Rasa <strong>Non Grata</strong>!"
+description: "If <strong>carbon neutrality</strong> is the goal, <strong>layered architecture</strong> – where remnants of the <strong>past</strong> are <strong>integrated</strong> with <strong>future</strong> development – is the solution."
 
 
 meta_description: "Layer Architecture Inc. | Toronto"
@@ -21,7 +21,7 @@ projects:
 services:
   heading: "Services"
   sub_heading: "" # "Services we offer"
-  limit: 6
+  limit: 3
   sort: weight # date | weight
   view_more_button_text: "More Services" # "More Projects"
   view_more_button_link: "/services" # "/projects"
