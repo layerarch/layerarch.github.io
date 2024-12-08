@@ -2,7 +2,7 @@
 layout: home
 permalink: "/"
 title: "Tabula Rasa <strong>Non Grata</strong>!"
-description: "If <strong>carbon neutrality</strong> is the goal, <strong>layered architecture</strong> – where remnants of the <strong>past</strong> are <strong>integrated</strong> with <strong>future</strong> development – is the solution."
+description: "If <strong>carbon neutrality</strong> is the goal, a <strong>layered</strong> approach to architecture – where remnants of the <strong>past</strong> are integrated with <strong>future</strong> development – is the solution."
 
 
 meta_description: "Layer Architecture Inc. | Toronto"
