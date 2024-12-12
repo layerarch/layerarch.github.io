@@ -41,6 +41,7 @@ By examining the embodied energy of buildings—the energy used to mine, transpo
 
 
 ## Complexity... Design? 
+## Design Process?
 
 > "But an architecture of complexity and contradiction has a special obligation toward the whole: its truth must be in its totality or its implications of totality. It must embody the difficult unity of inclusion rather than the easy unity of exclusion"
 >
