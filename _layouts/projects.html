@@ -23,8 +23,8 @@ body_classes: page-projects
   <div class="filter-row">
     <div class="row mb-1">
       <div class="col-12">
-        <button class="btn btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#filterType" aria-expanded="false" aria-controls="filterType">
-          ≡ TYPE FILTER
+        <button class="btn btn-collapse type-filter-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#filterType" aria-expanded="false" aria-controls="filterType">
+          + TYPE FILTER
         </button>
       </div>
     </div>
@@ -55,8 +55,8 @@ body_classes: page-projects
   <div class="filter-row">
     <div class="row mb-1">
       <div class="col-12">
-        <button class="btn btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#filterProgram" aria-expanded="false" aria-controls="filterProgram">
-          ≡ PROGRAM FILTER
+        <button class="btn btn-collapse program-filter-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#filterProgram" aria-expanded="false" aria-controls="filterProgram">
+          + PROGRAM FILTER
         </button> 
       </div>
     </div> 
@@ -145,6 +145,10 @@ body_classes: page-projects
   </div>
 </div>
 {% endif %}
+
+<div class="no-projects-message" style="display: none; text-align: center; margin-top: 20px;">
+  No projects available. Try changing filter settings.
+</div>
 
 <!-- JavaScript for Filtering -->
 <script src="{{ '/assets/js/projects.js' | relative_url }}"></script>

@@ -2,6 +2,11 @@
 document.addEventListener('DOMContentLoaded', function () {
   const filterButtons = document.querySelectorAll('.filter-btn');
   const projectCards = document.querySelectorAll('.card-container');
+  const programFilterButton = document.querySelector('.program-filter-toggle');
+  const programFilterCollapse = document.querySelector('#filterProgram');
+  const typeFilterButton = document.querySelector('.type-filter-toggle');
+  const typeFilterCollapse = document.querySelector('#filterType');
+  const noProjectsMessage = document.querySelector('.no-projects-message'); // Message element
 
   let filters = { program: '', type: '' };
 
@@ -29,6 +34,8 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   function filterProjects() {
+    let visibleProjects = 0;
+
       projectCards.forEach(card => {
           const cardProgram = card.getAttribute('program').toLowerCase();  // Convert program to lowercase
           const cardType = card.getAttribute('type').toLowerCase();            // Convert type to lowercase
@@ -38,46 +45,40 @@ document.addEventListener('DOMContentLoaded', function () {
 
           if (matchesProgram && matchesType) {
               card.style.display = 'block';
+              visibleProjects++;
           } else {
               card.style.display = 'none';
           }
       });
+      // Show or hide the "no projects" message
+      if (visibleProjects === 0) {
+        noProjectsMessage.style.display = 'block';
+    } else {
+        noProjectsMessage.style.display = 'none';
+    }
   }
+    // Event listeners for program filter toggle
+    if (programFilterButton && programFilterCollapse) {
+        // Update text when collapse is shown
+        programFilterCollapse.addEventListener('shown.bs.collapse', function () {
+            programFilterButton.textContent = '- PROGRAM FILTER';
+        });
+
+        // Update text when collapse is hidden
+        programFilterCollapse.addEventListener('hidden.bs.collapse', function () {
+            programFilterButton.textContent = '+ PROGRAM FILTER';
+        });
+    }
+    // Event listeners for type filter toggle
+    if (typeFilterButton && typeFilterCollapse) {
+        // Update text when collapse is shown
+        typeFilterCollapse.addEventListener('shown.bs.collapse', function () {
+            typeFilterButton.textContent = '- TYPE FILTER';
+        });
+
+        // Update text when collapse is hidden
+        typeFilterCollapse.addEventListener('hidden.bs.collapse', function () {
+            typeFilterButton.textContent = '+ TYPE FILTER';
+        });
+    }
 });
-
-// var collapseElementList = [].slice.call(document.querySelectorAll('.collapse'))
-// var collapseList = collapseElementList.map(function (collapseEl) {
-//   return new bootstrap.Collapse(collapseEl)
-// })
-
-
-// document.addEventListener("DOMContentLoaded", function() {
-//   const programFilter = document.getElementById("program-filter");
-//   const typeFilter = document.getElementById("type-filter");
-//   const cards = document.querySelectorAll(".card-project");
-
-//   function filterProjects() {
-//     const selectedProgram = programFilter.value.toLowerCase();
-//     const selectedType = typeFilter.value.toLowerCase();
-
-//     cards.forEach(card => {
-//       const cardProgram = card.getAttribute("program");
-//       const cardType = card.getAttribute("type");
-
-//       // Check if the card matches the selected filters
-//       const matchesProgram = selectedProgram === "" || cardProgram === selectedProgram;
-//       const matchesType = selectedType === "" || cardType === selectedType;
-
-//       // Show or hide the card based on filter matches
-//       if (matchesProgram && matchesType) {
-//         card.style.display = "";
-//       } else {
-//         card.style.display = "none";
-//       }
-//     });
-//   }
-
-//   // Add event listeners to the filters
-//   programFilter.addEventListener("change", filterProjects);
-//   typeFilter.addEventListener("change", filterProjects);
-// });
