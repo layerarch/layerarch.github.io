@@ -132,9 +132,9 @@
   }
   &.is-active {
     border-color: transparent;
-    color: var(--color-primary-text);
     i {
       transform: rotate(180deg);
+      color: var(--color-primary-text);
     }
   }
 }
