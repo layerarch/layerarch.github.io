@@ -1,16 +1,20 @@
 ---
 layout: service
 title: Building Condition Assessment
-description: Oversee the execution of construction contracts with our administration services.
+description: Detailed evaluations of buildings to identify issues, assess structural integrity, and recommend necessary improvements.
 permalink: /services/condition-assessment/
 icon: fas fa-helmet-safety
 weight: 9
 ---
 
-We provide construction contract administration services to ensure that the contractual obligations of all parties are fulfilled. This includes managing changes, coordinating with contractors, and ensuring the project adheres to timelines and budgets.
+Building condition assessments provide critical insights into the structural health of your property. Our thorough evaluations identify issues, estimate repair costs, and help prioritize maintenance to ensure long-term value and safety.
 
-Review project for general conformance with the construction contract, drawings, and specifications. 
-Assist with questions from the contractor which arise during construction
-issue revisions to the drawings as 
-review and comment on contractors submitalls and shop drawings
-Reviewing construction progress to certify payment at select milestones
+## Key Offerings:
+- Visual Inspections: Identifying defects and deficiencies.
+- Structural Assessments: Evaluating load-bearing elements and overall stability.
+- System Evaluations: Reviewing HVAC, electrical, plumbing, and other systems.
+- Code Compliance: Ensuring the building meets local regulations.
+- Maintenance Recommendations: Proposing actionable steps to extend the lifespan of the property.
+
+## Detailed Scope of Work:
+Our assessments provide a comprehensive understanding of your building’s condition. Reports include photographic documentation, technical findings, and prioritized recommendations, empowering informed decisions about repairs or renovations.

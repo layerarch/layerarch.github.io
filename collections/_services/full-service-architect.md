@@ -1,7 +1,7 @@
 ---
 layout: service
 title: Full-Service Architect
-description: Comprehensive architectural services, from concept design to construction administration, custom tailored to your projects needs.
+description: Comprehensive architectural services, from concept design to construction administration, custom tailored to your project's needs.
 permalink: /services/full-service-architect/
 icon: fas fa-compass-drafting
 weight: 1
@@ -10,7 +10,6 @@ weight: 1
 At Layer Architecture Inc., we offer full-service architectural expertise that ensures your project is expertly guided through every phase—from the initial concept to the final construction. Our comprehensive approach integrates creative design, meticulous planning, and diligent construction oversight to deliver spaces that meet your needs with aesthetic and functional excellence. 
 
 ## Key Offerings:
-
 - Pre-Design: Initial analysis and planning to establish project goals, assess feasibility, and define requirements.
 - Schematic Design: Early-stage designs that outline the project’s basic form and functionality.
 - Design Development: Refinement of the design concept, incorporating technical details, materials, and systems to finalize the project’s overall look and functionality.
@@ -22,7 +21,9 @@ At Layer Architecture Inc., we offer full-service architectural expertise that e
 ## Detailed Scope of Work:
 Our services are divided into distinct phases to ensure clarity and efficiency. Following an initial consultation, we will determine which of the services below align with your project’s needs. A detailed proposal, including an estimate, will be tailored based on the selected services.
 
-## 1. Pre-Design Services
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/ScopeOfServices.webp" link="/assets/images/gen/content/ScopeOfServices.pdf" target="\_blank" %}
+
+<!-- ## 1. Pre-Design Services
 - Facility Programming
 - Space Relationships / Flow Diagrams
 - Project Development Scheduling
@@ -176,4 +177,4 @@ Consultants' Services:
 - Systems Performance Review
 - Non-Building Equipment Selection
 - Life Cycle Cost Monitoring
-- Services Related to Alterations and Demolition
+- Services Related to Alterations and Demolition -->
