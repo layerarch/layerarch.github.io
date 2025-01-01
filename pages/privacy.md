@@ -111,4 +111,4 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 ## Contact Us
 
-If you have any questions about this Privacy Policy, You can contact us: [support@layerarch.ca](mailto:support@layerarch.ca)
+If you have any questions about this Privacy Policy, You can contact us: [contact@layerarch.ca](mailto:contact@layerarch.ca)

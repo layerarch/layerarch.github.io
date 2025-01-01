@@ -21,7 +21,7 @@ At Layer Architecture Inc., we offer full-service architectural expertise that e
 ## Detailed Scope of Work:
 Our services are divided into distinct phases to ensure clarity and efficiency. Following an initial consultation, we will determine which of the services below align with your project’s needs. A detailed proposal, including an estimate, will be tailored based on the selected services.
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/ScopeOfServices.webp" link="/assets/images/gen/content/ScopeOfServices.pdf" target="\_blank" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/ScopeOfServices.webp" link="/assets/images/gen/content/Layer Architecture - Architectural Services Chart.pdf" target="\_blank" %}
 
 <!-- ## 1. Pre-Design Services
 - Facility Programming

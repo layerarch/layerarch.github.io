@@ -17,30 +17,61 @@ body_classes: page-contact
   </div>
 </div>
 
+{% assign contact = site.data.contact %}
 {% assign content = content %}
 {% if content != "" %}
   <div class="section pt-0">
     <div class="container">
-      <div class="row justify-content-start">
-        <div class="col-12 col-lg-8">
-          <div class="content">{{ content }}</div>
+      <div class="row">
+        <div class="col-12 col-lg-6" style="margin-bottom: 20px;">
+          <h2 style="margin-bottom: 20px;">New Project Inquiry</h2>
+          {% if site.contact_form.use_netlify_form %}
+            {% include framework/form-contact-netlify.html %}
+          {% elsif site.contact_form.use_formspree_form and site.contact_form.formspree_endpoint %}
+            {% include framework/form-contact-formspree.html %}
+          {% endif %}
+        </div>
+        <div class="col-12 col-lg-6">
+          <h2 id="contact-info" style="margin-bottom: 20px;">Contact Info</h2>
+          <div class="contact">
+            {% if contact.email and contact.email != "" %}
+              <div class="contact-email">
+                <strong>Email:</strong>
+                <a href="mailto:{{ contact.email }}" style="text-decoration: underline;">{{ contact.email }}</a>
+              </div>
+            {% endif %}
+            {% if contact.phone and contact.phone != "" %}
+              <div class="contact-phone">
+                <strong>Phone:</strong>
+                {{ contact.phone }}</div>
+            {% endif %}
+            {% if contact.fax and contact.fax != "" %}
+              <div class="contact-fax">
+                <strong>Fax:</strong>
+                {{ contact.fax }}</div>
+            {% endif %}
+            {% if contact.address and contact.address != "" %}
+              <div class="contact-address">
+                <strong>Address:</strong>
+                {{ contact.address }} {% if contact.map_link %}<a href="{{ contact.map_link }}" target="_blank" rel="noreferrer">(View Map)</a> {% endif %}
+              </div>
+            {% endif %}
+          </div>
+          {% if contact.map_preview %}
+            <div id="map" style="margin-top: 20px;">
+              <iframe
+                width="100%"
+                height="520"
+                style="border:0"
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade"
+                src="{{ contact.map_preview }}">
+              </iframe>
+            </div>
+          {% endif %}
         </div>
       </div>
     </div>
   </div>
 {% endif %}
-
-<div class="section pt-0">
-  <div class="container">
-    <div class="row justify-content-start">
-      <h2>New Project Inquiry</h2>
-      <div class="col-12 col-lg-8">
-        {% if site.contact_form.use_netlify_form %}
-          {% include framework/form-contact-netlify.html %}
-        {% elsif site.contact_form.use_formspree_form and site.contact_form.formspree_endpoint %}
-          {% include framework/form-contact-formspree.html %}
-        {% endif %}
-      </div>
-    </div>
-  </div>
-</div>
