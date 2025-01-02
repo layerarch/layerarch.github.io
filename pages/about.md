@@ -8,9 +8,7 @@ description: ""
 
 # What is Layer Architecture?
 
-Layer Architecture is a Toronto based architecture studio with an interest in creating buildings which can adapt to future changes in use, are sustainable in their contributions to the built environment, and strike a balance between complexity, beauty, and design. 
-
-Layer Architecture is a Toronto based architecture firm with a special interest in creating buildings that are adaptible, sustainable, and aesthetically complex.
+<strong><u>Layer Architecture</u></strong> is a Toronto-based architecture studio with an interest in designing buildings that are <strong><u>adaptable</u></strong> to changes in use, <strong><u>carbon neutral</u></strong>, and highlight the <strong><u>complex</u></strong> nature of adaptive reuse as a defining design aesthetic.
 
 ## Adaptability
 

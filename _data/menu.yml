@@ -20,14 +20,14 @@ main:
   
 
 footer_primary:
-  - name: "Marion Renovation"
-    url: /projects/20001/
-  - name: "Lonsmount Addition"
-    url: /projects/23004/
-  - name: "Carbon[Sync]"
-    url: /projects/19009/
   - name: "Keeywaydin Porch Enclosure"
     url: /projects/22001/
+  - name: "Parkdale Renovation"
+    url: /projects/20001/
+  - name: "Carbon[Sync]"
+    url: /projects/19009/
+  - name: "Kawartha Lakes Cottage"
+    url: /projects/21005/
 
 footer_secondary:
   - name: Services
