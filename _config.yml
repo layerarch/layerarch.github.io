@@ -2,15 +2,17 @@
 # Jekyll Config
 # --------------------
 baseurl: ""
-url: "http://layerarch.shop"
+url: "http://layerarch.ca"
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
+description: "Layer Architecture is a full-service architecture and design studio based in Toronto, Canada. We welcome opportunities to work on residential and commercial projects of all sizes and complexities. Our services include architecture and design for new construction, renovations and additions, and interior alterations."
 
 # Plugins
 plugins:
   - jekyll-environment-variables
   - jekyll-paginate
+  - jekyll-sitemap
 
 paginate: 6
 paginate_path: "/blog/page/:num"
@@ -178,7 +180,7 @@ menu:
 footer:
   enable_footer: true # show/hide the entire footer
   footer_title: "Layer Architecture Inc."
-  footer_description: "Tabula Rasa Non Grata!"
+  footer_description: "We look forward to working with you!"
   enable_social_media_icons: true
   enable_contact_details: false
   enable_menu_footer_primary: true

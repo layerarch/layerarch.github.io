@@ -1,8 +1,8 @@
 ---
 layout: home
 permalink: "/"
-title: "Tabula Rasa <strong>Non Grata</strong>!"
-description: "If <strong>carbon neutrality</strong> is the goal, a <strong>layered</strong> approach to architecture – where remnants of the <strong>past</strong> are integrated with <strong>future</strong> development – is the solution."
+title: "Welcome!"
+description: "Layer Architecture is a Toronto-based architecture and design studio specialising in residential and commercial new construction, additions, and interior alterations"
 
 
 meta_description: "Layer Architecture Inc. | Toronto"
