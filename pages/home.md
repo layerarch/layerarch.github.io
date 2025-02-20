@@ -2,7 +2,7 @@
 layout: home
 permalink: "/"
 title: "Welcome!"
-description: "Layer Architecture is a Toronto-based architecture and design studio specialising in residential and commercial new construction, additions, and interior alterations"
+description: "Layer Architecture is a Toronto-based architecture and design studio specialising in residential and commercial new construction, additions, and interior alterations."
 
 
 meta_description: "Layer Architecture Inc. | Toronto"

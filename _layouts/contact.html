@@ -34,15 +34,10 @@ body_classes: page-contact
         <div class="col-12 col-lg-6">
           <h2 id="contact-info" style="margin-bottom: 20px;">Contact Info</h2>
           <div class="contact">
-            {% if contact.email and contact.email != "" %}
-              <div class="contact-email">
-                <strong>Email:</strong>
-                <a href="mailto:{{ contact.email }}" style="text-decoration: underline;">{{ contact.email }}</a>
-              </div>
-            {% endif %}
+            
             {% if contact.phone and contact.phone != "" %}
               <div class="contact-phone">
-                <strong>Phone:</strong>
+                <strong>Call/Text:</strong>
                 {{ contact.phone }}</div>
             {% endif %}
             {% if contact.fax and contact.fax != "" %}
@@ -50,10 +45,16 @@ body_classes: page-contact
                 <strong>Fax:</strong>
                 {{ contact.fax }}</div>
             {% endif %}
+            {% if contact.email and contact.email != "" %}
+              <div class="contact-email">
+                <strong>Email:</strong>
+                <a href="mailto:{{ contact.email }}" style="text-decoration: underline;">{{ contact.email }}</a>
+              </div>
+            {% endif %}
             {% if contact.address and contact.address != "" %}
               <div class="contact-address">
                 <strong>Address:</strong>
-                {{ contact.address }} {% if contact.map_link %}<a href="{{ contact.map_link }}" target="_blank" rel="noreferrer">(Open Maps)</a> {% endif %}
+                {{ contact.address }} {% if contact.map_link %}<a href="{{ contact.map_link }}" target="_blank" rel="noreferrer">(Open in Maps)</a> {% endif %}
               </div>
             {% endif %}
           </div>
