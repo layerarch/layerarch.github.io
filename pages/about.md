@@ -6,7 +6,7 @@ meta_description: "Layer Architecture about page"
 # image: "/assets/images/gen/content/content-5.webp"
 ---
 # Who We Are 
-Layer Architecture is a full-service architecture and design studio based in Toronto, Canada. We welcome opportunities to work on residential and commercial projects of all sizes and complexities. Our services include architecture and design for new construction, additions, and interior alterations.
+Layer Architecture is a full-service architecture and design studio based in Toronto, Ontario. We specialize in residential and commercial projects of all sizes and complexities, from all new construction, additions, and interior transformations.
 
 <div class="row">
     <div class="col-md-4 text-center">
@@ -14,7 +14,7 @@ Layer Architecture is a full-service architecture and design studio based in Tor
     <p><strong>Michael MacNeill</strong><br>Owner, Architect, OAA</p>
   </div>
   <div class="col-md-8">
-    <p>Layer Architecture is owned and operated by Michael MacNeill, a licensed architect and Master of Architecture degree recipient from the University of Toronto. Prior to establishing Layer Architecture, Michael provided design, drafting, and building permit services under MacNeill Design Services, helping clients with residential renovations, additions, new construction, and commercial interior renovations. With over 10 years of experience working for his own companies and various firms across Toronto, his past experience includes work with CannonDesign, Amantea Architects, DesignSHFT, Wayne Swadron Studios, and EVOQ Architecture on new construction, renovations, adaptive reuse, and historic preservation projects.</p>
+    <p>Layer Architecture is owned and operated by Michael MacNeill, a licensed architect with a Master of Architecture (M.Arch) degree from the University of Toronto. Before founding Layer Architecture, Michael ran MacNeill Design Services, providing design, drafting, and building permit services for numerous residential renovations, additions, new constructions, and commercial interior projects. With over a decade of experience running his own businesses and working at firms across Toronto, his past roles include projects with CannonDesign, Amantea Architects, DesignSHFT, Wayne Swadron Studios, and EVOQ Architecture, specializing in new construction, renovations, adaptive reuse, and historic preservation.</p>
   </div>
 </div>
 
@@ -34,3 +34,4 @@ During the Bidding Phase, we issue a comprehensive set of construction documents
 Throughout the Construction Phase, we provide project oversight, ensuring compliance with the approved plans, managing changes, and maintaining quality standards. We conduct site visits, coordinate with contractors, and address any questions or challenges that arise during construction.
 
 After completion, we offer Post-Construction Services, including final inspections, addressing deficiencies, performance reviews, and follow-ups to ensure your project meets all expectations.
+

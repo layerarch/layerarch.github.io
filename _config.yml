@@ -6,7 +6,7 @@ url: "http://layerarch.ca"
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
-description: "Layer Architecture is a full-service architecture and design studio based in Toronto, Canada. We welcome opportunities to work on residential and commercial projects of all sizes and complexities. Our services include architecture and design for new construction, renovations and additions, and interior alterations."
+description: "Layer Architecture is a full-service architecture and design studio based in Toronto, Ontario. We welcome opportunities to work on residential and commercial projects of all sizes and complexities. Our services include architecture and design for new construction, renovations and additions, and interior alterations."
 
 # Plugins
 plugins:
