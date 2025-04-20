@@ -107,6 +107,4 @@ By continuing to access or use Our Service after those revisions become effectiv
 
 # Contact Us
 
-If you have any questions about these Terms and Conditions, You can contact us:
-
-- By email: example@example.com
+If you have any questions about these Terms and Conditions, You can contact us: [contact@layerarch.ca](mailto:contact@layerarch.ca)

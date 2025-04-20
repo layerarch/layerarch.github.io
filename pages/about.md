@@ -5,8 +5,16 @@ permalink: "/about/"
 meta_description: "Layer Architecture about page"
 # image: "/assets/images/gen/content/content-5.webp"
 ---
+
+Layer Architecture Inc. is a Toronto-based architecture studio with experience in residential and commercial projects, including new construction, additions, and interior renovations. Our name derives from our approach to architecture and design: taking a layered view of the built environment, where remnants of the past are not erased, but integrated with future development. Whether working with new construction or existing buildings, we consider every historical, structural, material, and experiential layer as an opportunity to build lasting value.
+
+Our work is grounded by three core principles: durability, adaptability, and beauty. We believe buildings should stand the test of time and climate—not only physically, but through thoughtful detailing that allows individual parts to be maintained or replaced without compromising the whole. Our spaces are designed to adapt to shifting uses, evolving technologies, and the changing needs of the people who inhabit them. And above all, we aim to create architecture that is aesthetically compelling in their quality, style, proportion, and visual expression.
+
+Our approach to sustainability is rooted in the belief that lasting value—not just reduced impact—is the foundation of true sustainability. A building, no matter how “green,” falls short if it’s demolished after only a brief period of use. That’s why we prioritize adaptive reuse: reimagining existing structures, materials, and histories to create architecture that is not only environmentally responsible, but also culturally meaningful and built to endure.
+
+Our design philosophy embraces complexity, contradiction, and how buildings evolve over time. We find richness in the tension between old and new, rough and refined, sacred and everyday. By weaving together the layers of time, we create spaces that are contrasting, resilient, and deeply human.
+
 # Who We Are 
-Layer Architecture is a full-service architecture and design studio based in Toronto, Ontario. We specialize in residential and commercial projects of all sizes and complexities, from all new construction, additions, and interior transformations.
 
 <div class="row">
     <div class="col-md-4 text-center">
@@ -18,20 +26,9 @@ Layer Architecture is a full-service architecture and design studio based in Tor
   </div>
 </div>
 
-
-
 # How We Work 
-Our process begins with a thorough understanding of the project requirements and existing conditions. For renovation and addition projects, we conduct a site visit to document existing measurements.
+We offer a number of distinct services, all of which can be found descriped on our Services page. But our typical process for full-service architectural design begins with a thorough understanding of the project requirements and existing conditions. For renovation and addition projects, we conduct a thorough site review to document existing conditions. Once the project scope and constraints are defined, we begin the Schematic Design Phase, and develop the first draft of the floor plans, elevations, and sections. This process is highly collaborative and may involve multiple iterations until a final design is selected. We typically recommend concluding this phase by submitting a Zoning Applicable Law Certificate application to the City. 
 
-Once the project scope and constraints are defined, we begin the Schematic Design Phase, and develop the first draft of the floor plans, elevations, and sections. This process is highly collaborative and may involve multiple iterations until a final design is selected. We typically recommend concluding this phase by submitting a Zoning Applicable Law Certificate application to the City. 
+In the Design Development Phase, structural and mechanical engineers are brought in, and the design concept is refined. While changes are still possible, they become more complex and costly as the project progresses. This phase ends with a finalized set of developed plans, including elevations, sections, and key construction details, coordinated with the various engineering disciplines. With the final design approved, we prepare detailed construction drawings and specifications in the Construction Documents Phase. These documents serve as a guide for contractors during construction. At this stage, we also submit Building Permit applications to the City.
 
-In the Design Development Phase, structural and mechanical engineers are brought in, and the design concept is refined. While changes are still possible, they become more complex and costly as the project progresses. This phase ends with a finalized set of developed plans, including elevations, sections, and key construction details, coordinated with the various engineering disciplines.
-
-With the final design approved, we prepare detailed construction drawings and specifications in the Construction Documents Phase. These documents serve as a guide for contractors during construction. At this stage, we also submit Building Permit applications to the City.
-
-During the Bidding Phase, we issue a comprehensive set of construction documents to potential contractors, assist in evaluating bids, and support contract negotiations to secure the best team for your project.
-
-Throughout the Construction Phase, we provide project oversight, ensuring compliance with the approved plans, managing changes, and maintaining quality standards. We conduct site visits, coordinate with contractors, and address any questions or challenges that arise during construction.
-
-After completion, we offer Post-Construction Services, including final inspections, addressing deficiencies, performance reviews, and follow-ups to ensure your project meets all expectations.
-
+During the Bidding Phase, we issue a comprehensive set of construction documents to potential contractors, assist in evaluating bids, and support contract negotiations to secure the best team for your project. Throughout the Construction Phase, we provide project oversight, ensuring compliance with the approved plans, managing changes, and maintaining quality standards. We conduct site visits, coordinate with contractors, and address any questions or challenges that arise during construction. After completion, we offer Post-Construction Services, including final inspections, addressing deficiencies, performance reviews, and follow-ups to ensure your project meets all expectations.
