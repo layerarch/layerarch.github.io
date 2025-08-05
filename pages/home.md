@@ -6,7 +6,7 @@ description: "Layer Architecture is a full-service architecture and design studi
 
 
 meta_description: "Layer Architecture is a Toronto-based architecture and design studio offering innovative residential and commercial solutions. View our projects and services."
-meta_title: "Layer Architecture – Residential & Commercial Design in Toronto"
+meta_title: "Layer Architecture – Residential & Commercial Design in Toronto, Ontario, Canada"
 subscribe: false
 
 projects:
