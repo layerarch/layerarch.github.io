@@ -6,7 +6,7 @@ description: "Layer Architecture is a full-service architecture and design studi
 
 
 meta_description: "Layer Architecture Inc. | Toronto"
-meta_title: "Layer Architecture Inc."
+meta_title: "Layer Architecture"
 subscribe: false
 
 projects:
