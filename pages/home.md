@@ -1,12 +1,12 @@
 ---
 layout: home
 permalink: "/"
-title: ""
+title: "Layer Architecture – Toronto-Based Architecture & Design Studio"
 description: "Layer Architecture is a full-service architecture and design studio based in Toronto, Ontario. We specialize in residential and commercial projects of all sizes and complexities, from all new construction, additions, and interior alterations"
 
 
-meta_description: "Layer Architecture Inc. | Toronto"
-meta_title: "Layer Architecture"
+meta_description: "Layer Architecture is a Toronto-based architecture and design studio offering innovative residential and commercial solutions. View our projects and services."
+meta_title: "Layer Architecture – Residential & Commercial Design in Toronto"
 subscribe: false
 
 projects:
