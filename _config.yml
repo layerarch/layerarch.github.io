@@ -75,7 +75,7 @@ exclude:
 # Theme Config
 # --------------------
 # title: "Jekyll Curate"
-title: "Layer Architecture Inc."
+title: "Layer Architecture"
 category_dir: category
 
 colors:
