@@ -7,7 +7,7 @@ icon: fas fa-building-user
 weight: 3
 ---
 
-Feasibility studies are the foundation of a successful project. Layer Architecture Inc. provides the critical analysis needed to evaluate project scope, site conditions, and budget alignment, ensuring you make informed decisions with confidence.
+Feasibility studies are the foundation of a successful project. Layer Architecture provides the critical analysis needed to evaluate project scope, site conditions, and budget alignment, ensuring you make informed decisions with confidence.
 
 ## Key Offerings:
 - Site Analysis: Evaluating location, zoning, and environmental factors.

@@ -7,7 +7,7 @@ icon: far fa-file-lines
 weight: 2
 ---
 
-Navigating the permitting process can be complex. At Layer Architecture Inc., we simplify this journey by managing all aspects of building permit applications, ensuring your project adheres to municipal codes and receives timely approval.
+Navigating the permitting process can be complex. At Layer Architecture, we simplify this journey by managing all aspects of building permit applications, ensuring your project adheres to municipal codes and receives timely approval.
 
 ## Key Offerings:
 - Zoning Compliance: Verifying that your project aligns with local zoning requirements.

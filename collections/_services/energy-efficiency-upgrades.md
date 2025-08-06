@@ -7,7 +7,7 @@ icon: fas fa-bolt
 weight: 8
 ---
 
-Reducing energy consumption is key to lowering operating costs and improving environmental sustainability. At Layer Architecture Inc., we help you optimize building performance through tailored upgrades that enhance energy efficiency while minimizing environmental impact. Our comprehensive services include energy audits to identify opportunities for improvement, retrofitting existing systems, and implementing modern, efficient solutions that align with your goals. 
+Reducing energy consumption is key to lowering operating costs and improving environmental sustainability. At Layer Architecture, we help you optimize building performance through tailored upgrades that enhance energy efficiency while minimizing environmental impact. Our comprehensive services include energy audits to identify opportunities for improvement, retrofitting existing systems, and implementing modern, efficient solutions that align with your goals. 
 
 ## Key Offerings:
 - Energy Audits: Identifying inefficiencies and opportunities for improvement.

@@ -7,7 +7,7 @@ icon: fas fa-compass-drafting
 weight: 1
 ---
 
-At Layer Architecture Inc., we offer full-service architectural expertise that ensures your project is expertly guided through every phase—from the initial concept to the final construction. Our comprehensive approach integrates creative design, meticulous planning, and diligent construction oversight to deliver spaces that meet your needs with aesthetic and functional excellence. 
+At Layer Architecture, we offer full-service architectural expertise that ensures your project is expertly guided through every phase—from the initial concept to the final construction. Our comprehensive approach integrates creative design, meticulous planning, and diligent construction oversight to deliver spaces that meet your needs with aesthetic and functional excellence. 
 
 ## Key Offerings:
 - Pre-Design: Initial analysis and planning to establish project goals, assess feasibility, and define requirements.

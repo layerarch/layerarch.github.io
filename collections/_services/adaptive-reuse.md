@@ -7,7 +7,7 @@ icon: fas fa-building-columns
 weight: 6
 ---
 
-Adaptive reuse allows you to breathe new life into existing buildings, combining historical preservation with modern functionality. At Layer Architecture Inc., we specialize in repurposing structures to serve new functions while maintaining their unique character and integrity.
+Adaptive reuse allows you to breathe new life into existing buildings, combining historical preservation with modern functionality. At Layer Architecture, we specialize in repurposing structures to serve new functions while maintaining their unique character and integrity.
 
 ## Key Offerings:
 - Building Condition Assessment: Evaluating the structural and functional state of the property.
