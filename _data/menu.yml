@@ -17,6 +17,9 @@ main:
   - name: Contact
     url: /contact/
     weight: 6
+  # - name: FAQ
+  #   url: /faq/
+  #   weight: 7
   
 
 footer_primary:

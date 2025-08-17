@@ -9,8 +9,4 @@ meta_description: "Discover Layer Architecture, a full-service design studio spe
 
 # Layer Architecture
 
-Layer Architecture is a full-service architecture and design firm based in Toronto. We specialize in residential and commercial projects of all sizes...
-
-[Include sections about your vision, process, notable projects, and team]
-
-[Add internal links to /projects, /services]
+Layer Architecture is a full-service architecture and design firm based in Toronto. We specialize in residential and commercial projects of all sizes
