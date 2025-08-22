@@ -4,9 +4,8 @@ permalink: "/"
 title: "Layer Architecture"
 description: "Specializing in residential and commercial projects of all sizes and complexities, from all new construction, renovation-additions, and interior alterations"
 
-
-meta_description: "Layer Architecture is a Toronto-based architecture and design studio offering innovative residential and commercial solutions. View our projects and services."
-meta_title: "Layer Architecture – Residential & Commercial Design in Toronto, Ontario, Canada"
+meta_title: "Layer Architecture"
+meta_description: "Layer Architecture is a Toronto-based architecture and design studio offering innovative residential and commercial solutions. We are licensed and insured Architect's and members of the Ontario Association of Architects (OAA). View our projects and services."
 subscribe: false
 
 projects:
