@@ -25,6 +25,25 @@
     {% include framework/fonts.html %}
     {% include framework/google-tag-manager.html %}
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Layer Architecture Inc.",
+      "url": "https://layerarch.ca",
+      "logo": "https://layerarch.ca/assets/images/logo/logo.png"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Layer Architecture Inc.",
+      "url": "https://layerarch.ca/"
+    }
+    </script>
+
   </head>
 <body class="page {% if page.body_classes %}{{ page.body_classes }}{% elsif layout.body_classes %}{{ layout.body_classes }}{% endif %}{% if site.header.fixed %} has-fixed-header{% else %} has-static-header{% endif %}">
 
