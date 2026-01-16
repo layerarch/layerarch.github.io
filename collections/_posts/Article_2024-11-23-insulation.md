@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "Exploring Different Ways to Insulate Your Building"
-date: 2024-11-23T18:00:38-05:00
+title: "What is the Best Way to Insulate Your New Home?"
+date: 2025-09-13
 authors: ["Michael MacNeill"]
 categories: ["Technical"]
-description: "A comparison of different wall types to optimize insulation value, material, cost, and size."
+description: "A comparison of different insulation methods to optimize insulation value, material, cost, and size."
 thumbnail: "/assets/images/gen/blog/2024-11-27/2024-11-28-thumbnailw.jpg"
 image: "/assets/images/gen/blog/2024-11-27/2024-11-28-banner.jpg"
 ---
 
-If you are looking to build or renovate your home, you may have asked yourself “how can I limit the passage of energy (heat) from one side of my house to the other, thus reducing the amount of energy (fuel) required for heating & cooling”… maybe not those exact words, but that is precisely what I set out to do here. 
+If you are looking to build a new home, or renovate your existing home, you may have asked yourself what is the best way to insulate your home? We compared over x wall types each with a unique strategy, thickness, or composition of insulation in order to determine which is the cheapest. which gives the most insulation value for its size, which gives the most insulation value period, and which is the best value. 
+
+“how can I limit the passage of energy (heat) from one side of my house to the other, thus reducing the amount of energy (fuel) required for heating & cooling”… maybe not those exact words, but that is precisely what I set out to do here. 
 
 Below is a listing of 72 different wall assemblies I modeled and tested in Therm7.7 to check their clear wall R-value, then checked price data to determine their cost per linear foot. I then compared them to determine which wall type is ‘best’ given a set of different scenarios.
 
