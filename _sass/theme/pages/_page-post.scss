@@ -1,8 +1,22 @@
 .page-post {
-  .title {
+  .post-heading {
     h1 {
-      font-weight: 500;
+      padding-top: 60px;
+      font-size: 36px;
+      letter-spacing: -2px;
+      line-height: 1.2;
+      font-weight: 700;
+      margin-bottom: 10px;
+      @include media-breakpoint-up(md) {
+        font-size: 48px;;
+      }
     }
+  .heading-heading h1 {
+    font-size: 36px;
+    @include media-breakpoint-up(md) {
+      font-size: 48px;;
+    }
+  }
   }
   .categories {
     .category-link {

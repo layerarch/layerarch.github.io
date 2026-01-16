@@ -5,13 +5,16 @@ body_classes: page-post
 
 <div class="section">
   <div class="container">
+    
     <div class="row justify-content-center">
       <div class="col-12">
-        {% include framework/heading.html
-          title=page.title
-          description=page.description
-          image=page.image
-        %}
+        <div class="post-heading">
+          {% include framework/heading.html
+            title=page.title
+            description=page.description
+            image=page.image
+          %}
+        </div>
       </div>
     </div>
   </div>
