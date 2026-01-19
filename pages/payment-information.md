@@ -25,14 +25,11 @@ Mail a cheque payable to: Layer Architecture Inc., 57 Charles Street West, Suite
 
 VISA, MasterCard – Click the *Pay Now With Helcim* button below. Enter the invoice amount followed by your contact information and the invoice number. Transfer funds. This payment method is subject to a ~3% Helcim service fee.
 
-<!-- [Pay with Helcim](https://layer-architecture-inc.myhelcim.com/hosted/?token=bcec8255a7fdba9ad78006)
-
-<a href="https://layer-architecture-inc.myhelcim.com/hosted/?token=bcec8255a7fdba9ad78006">Add to Portals</a> -->
-
-<form name="HcmPayPage" method="POST" action="https://layer-architecture-inc.myhelcim.com/hosted/?token=bcec8255a7fdba9ad78006" target="_blank_">
+<form name="HcmPayPage" method="POST" action="https://layer-architecture-inc.myhelcim.com/hosted/?token=bcec8255a7fdba9ad78006" target="_blank_" rel="noopener noreferrer">
 <input type="submit" name="submit" value="Pay Now With Helcim">
 </form>
 
+<!-- <a href="https://layer-architecture-inc.myhelcim.com/hosted/?token=bcec8255a7fdba9ad78006" target="_blank" rel="noopener noreferrer">Pay Now With Helcim</a> -->
 
 <br>
 <br>
