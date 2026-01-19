@@ -1,5 +1,6 @@
 .page-project {
   padding-top: 60px;
+
   .project-heading {
     h1 {
       font-size: 36px;
@@ -7,46 +8,121 @@
       line-height: 1.2;
       font-weight: 700;
       margin-bottom: 10px;
+
       @include media-breakpoint-up(md) {
         font-size: 48px;
       }
     }
   }
+
   .project-categories {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 40px;
+
     a {
       color: var(--color-base-text);
       font-weight: 600;
     }
   }
+
   .project-description {
     width: 80%;
-    p {
 
+    p {
     }
   }
+
   .banner-image {
     img {
       vertical-align: bottom;
       width: 100%;
       height: auto;
     }
+
     .banner-caption {
       margin-top: 5px;
       font-size: 14px;
+
       strong {
         font-weight: 600;
       }
+
       span {
         color: var(--color-base-text-2);
         font-weight: 400;
       }
     }
   }
+
   .gallery {
+    position: relative;
+    box-sizing: border-box;
+
+    .gallery-sizer,
+    .gallery-item {
+      box-sizing: border-box;
+      padding: 6px;
+    }
+
+    .gallery-image img {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-height: 70vh; /* limits very tall images */
+      object-fit: contain; /* preserves entire image, no cropping */
+    }
+
+    /* collection images */
+    .gallery-item--collection .gallery-collection-image img {
+      max-height: 40vh;
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* default 3 columns */
+    .gallery-sizer {
+      width: 33.3333%;
+    }
+
+    .gallery-item {
+      width: 33.3333%;
+      padding: 8px; /* padding can act as gutter */
+    }
+
+    @include media-breakpoint-down(md) {
+      .gallery-image img { max-height: 50vh; }
+      .gallery-item--collection .gallery-collection-image img { max-height: 30vh; }
+    }
+    @include media-breakpoint-down(sm) {
+      .gallery-image img { max-height: none; } /* allow full height on very small screens if you prefer */
+    }
+
+    /* nested collection image grid should not add unexpected margins */
+    .gallery-item--collection .gallery-collection-grid {
+      gap: 8px;
+    }
+
+    .gallery-item--collection .gallery-collection-image {
+      margin: 0;
+    }
+
+    @include media-breakpoint-down(md) {
+      .gallery-sizer,
+      .gallery-item {
+        width: 50%;
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      .gallery-sizer,
+      .gallery-item {
+        width: 100%;
+      }
+    }
+
     .gallery-item {
       .gallery-image {
         img {
@@ -55,12 +131,15 @@
           height: auto;
         }
       }
+
       .gallery-caption {
         margin-top: 5px;
         font-size: 14px;
+
         strong {
           font-weight: 600;
         }
+
         span {
           color: var(--color-base-text-2);
           font-weight: 400;
@@ -68,27 +147,58 @@
       }
     }
   }
+
+  .gallery-item--collection {
+    .gallery-collection-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+    }
+
+    .gallery-collection-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    .gallery-item--collection .gallery-collection-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    .gallery-item--collection .gallery-collection-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
   .gallery-single-column {
     display: grid;
     gap: $grid-gutter-width;
     grid-template-columns: 1fr;
   }
+
   .gallery-two-column {
     display: grid;
     gap: $grid-gutter-width;
     grid-template-columns: 1fr;
+
     @include media-breakpoint-up(md) {
       grid-template-columns: 1fr 1fr;
       grid-auto-rows: 300px;
     }
+
     @include media-breakpoint-up(md) {
       grid-auto-rows: 400px;
     }
-    
+
     .gallery-item {
       overflow: hidden;
     }
   }
+
   .gallery-masonry {
     margin-left: calc(#{$grid-gutter-width} / 2 * -1);
     margin-right: calc(#{$grid-gutter-width} / 2 * -1);
@@ -96,34 +206,39 @@
 
     .gallery-sizer {
       width: 100%;
+
       @include media-breakpoint-up(md) {
         width: 50%;
       }
     }
+
     .gallery-item {
       padding: 15px;
       width: 100%;
+
       @include media-breakpoint-up(md) {
         width: 50%;
       }
     }
   }
+
   .content {
     @include media-breakpoint-up(md) {
       width: 90%;
       padding-top: 30px;
     }
   }
+
   .project-stats {
     margin-top: 50px;
   }
-  
+
   .project-sub-heading {
     margin-bottom: 10px;
-    padding-top: 30px;  
+    padding-top: 30px;
     font-size: 16px;
   }
-  
+
   .project-date,
   .project-client,
   .project-program,
@@ -133,18 +248,20 @@
   .project-status,
   .project-role,
   .project-phases,
-  .project-storeys,  
+  .project-storeys,
   .project-area,
   .construction-duration,
   .project-budget,
   .delivery-method {
     margin-bottom: 3px;
     font-size: 16px;
+
     strong {
       display: inline-block;
       font-weight: 600;
       width: 140px;
     }
+
     span {
       display: inline-block;
       font-weight: 400;

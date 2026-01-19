@@ -162,31 +162,45 @@ body_classes: page-project
 
     <div class="row">
       <div class="col">
-        <div class="gallery gallery-masonry">
-          {% for item in page.gallery limit: limit %}
-            <div class="gallery-item">
-              <div class="gallery-image"><img src="{{ item.image | relative_url }}"/></div>
-              {% if item.caption %}
-              <div class="gallery-caption">{{ item.caption }}</div>
-              {% endif %}
-            </div>
-          {% endfor %}
-        </div>
+        {% if page.gallery %}
+          {% include project-gallery.html gallery=page.gallery %}
+        {% endif %}
       </div>
     </div>
   </div>
 </div>
-
+ 
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 <script>
-  var grid = document.querySelector('.gallery');
-  var msnry;
+  (function(){
+    var grid = document.querySelector('.gallery');
+    if (!grid) return;
+    var msnry;
 
-  imagesLoaded( grid, function() {
-    msnry = new Masonry( grid, {
-      itemSelector: '.gallery-item',
-      percentPosition: true,
+    // create Masonry after initial imagesLoaded, but also relayout on every image load
+    imagesLoaded(grid, function() {
+      msnry = new Masonry(grid, {
+        itemSelector: '.gallery-item',
+        columnWidth: '.gallery-sizer',
+        percentPosition: true,
+        gutter: 0
+      });
+      msnry.layout();
     });
-  });
+
+    // re-layout as each image loads to avoid gaps
+    imagesLoaded(grid).on('progress', function() {
+      if (msnry) msnry.layout();
+    });
+
+    // debounce resize
+    var t;
+    window.addEventListener('resize', function () {
+      clearTimeout(t);
+      t = setTimeout(function(){
+        if (msnry) msnry.layout();
+      }, 150);
+    });
+  })();
 </script>

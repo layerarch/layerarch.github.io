@@ -1,0 +1,31 @@
+<div class="gallery gallery-masonry">
+  <div class="gallery-sizer"></div>
+  {% assign items = include.gallery | default: page.gallery %}
+  {% for item in items %}
+    {% if item.type == "collection" %}
+      <div class="gallery-item gallery-item--collection">
+        <div class="gallery-image">
+          <div class="gallery-collection-grid">
+            {% for img in item.images %}
+              <div class="gallery-collection-image">
+                <img src="{{ img.image | relative_url }}" alt="{{ img.alt | default: img.caption | strip_html }}">
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% if item.caption %}
+          <div class="gallery-caption">{{ item.caption }}</div>
+        {% endif %}
+      </div>
+    {% else %}
+      <div class="gallery-item">
+        <div class="gallery-image">
+          <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default: item.caption | strip_html }}" />
+        </div>
+        {% if item.caption %}
+          <div class="gallery-caption">{{ item.caption }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
