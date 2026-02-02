@@ -17,9 +17,9 @@ main:
   - name: Blog
     url: /blog/
     weight: 6
-  # - name: FAQ
-  #   url: /faq/
-  #   weight: 7
+  - name: FAQ
+    url: /faq/
+    weight: 7
   
 
 footer_primary:
