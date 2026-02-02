@@ -1,11 +1,14 @@
 ---
-layout: service
+layout: secondary
 title: Adaptive Re-use
+subtitle: Adaptive Re-use
 description: Creative transformation of existing structures to meet new purposes, while respecting their historic and architectural significance.
 permalink: /services/adaptive-reuse/
 icon: fas fa-building-columns
 weight: 6
 ---
+
+## Creative transformation of existing structures to meet new purposes, while respecting their historic and architectural significance.
 
 Adaptive reuse allows you to breathe new life into existing buildings, combining historical preservation with modern functionality. At Layer Architecture, we specialize in repurposing structures to serve new functions while maintaining their unique character and integrity.
 

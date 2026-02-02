@@ -1,4 +1,5 @@
 {% assign title = include.title %}
+{% assign subtitle = include.subtitle %}
 {% assign description = include.description %}
 {% assign image = include.image %}
 {% assign icon = include.icon %}
@@ -21,6 +22,12 @@
   </div>
   {% endif %}
   
+  {% if subtitle %}
+    <div class="heading-subtitle">
+      <h1><strong>{{ subtitle }}</strong></h1>
+    </div>
+  {% endif %}
+
   {% if description %}
     <div class="heading-description">
       <p>{{ description }}</p>

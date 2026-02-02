@@ -1,11 +1,14 @@
 ---
-layout: service
+layout: secondary
 title: Feasibility Studies
+subtitle: Feasibility Studies
 description: Strategic evaluations to determine the viability and potential success of your architectural projects.
 permalink: /services/feasibility-studies/
 icon: fas fa-building-user
 weight: 3
 ---
+
+## Strategic evaluations to determine the viability and potential success of your architectural projects.
 
 Feasibility studies are the foundation of a successful project. Layer Architecture provides the critical analysis needed to evaluate project scope, site conditions, and budget alignment, ensuring you make informed decisions with confidence.
 

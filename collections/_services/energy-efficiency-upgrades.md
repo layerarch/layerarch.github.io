@@ -1,11 +1,14 @@
 ---
-layout: service
+layout: secondary
 title: Energy Efficiency Upgrades
+subtitle: Energy Efficiency Upgrades
 description: Efficient solutions to improve building performance, reduce energy consumption, and lower operational costs.
 permalink: /services/energy-efficiency-upgrades/
 icon: fas fa-bolt
 weight: 8
 ---
+
+## Efficient solutions to improve building performance, reduce energy consumption, and lower operational costs.
 
 Reducing energy consumption is key to lowering operating costs and improving environmental sustainability. At Layer Architecture, we help you optimize building performance through tailored upgrades that enhance energy efficiency while minimizing environmental impact. Our comprehensive services include energy audits to identify opportunities for improvement, retrofitting existing systems, and implementing modern, efficient solutions that align with your goals. 
 

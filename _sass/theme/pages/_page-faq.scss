@@ -1,0 +1,58 @@
+
+/* FAQ page: remove default button visuals and add full-width top divider */
+.page-faq {
+	.accordion {
+		width: 100%;
+		border-bottom:  1px solid var(--faq-divider, lch(0% 0 0));
+
+		.accordion-item {
+			border: none; /* let buttons provide separators */
+		}
+
+		.accordion-button {
+				display: block;
+				width: 100%;
+				background: transparent;
+				color: inherit;
+				/* remove Bootstrap button chrome but keep focus outline for accessibility */
+				box-shadow: none;
+				border: none;
+				border-top: 1px solid var(--faq-divider, lch(0% 0 0));
+				border-left: 0;
+				border-right: 0;
+				border-bottom: 0;
+				border-radius: 0;
+				padding: 1rem 0; /* adjust vertical spacing */
+				text-align: left;
+				justify-content: space-between;
+				font-size: 20px;
+				@include media-breakpoint-up(md) {
+					font-size: 24px;
+				}
+
+				/* positioning for right-aligned icon */
+				position: relative;
+				padding-right: 3rem;
+
+				/* ensure icon doesn't block pointer events on the button text */
+				.plus-icon { position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); width: 1.5rem; height: 1.5rem; display: flex; align-items: center; justify-content: center; pointer-events: none; color: inherit; }
+				.plus-icon i { width: 100%; height: 100%; display: inline-block; transition: transform .22s ease; }
+				/* rotate the FA icon when expanded (Bootstrap removes .collapsed when expanded) */
+				&:not(.collapsed) .plus-icon i { transform: rotate(45deg); }
+		}
+
+		/* hide default accordion chevron if you don't want it */
+		.accordion-button::after {
+			display: none;
+		}
+
+		.accordion-body {
+			padding: 0.5rem 0 1rem 0;
+			font-size: 16px;
+			@include media-breakpoint-up(md) {
+				font-size: 18px;
+				}
+		}
+	}
+}
+

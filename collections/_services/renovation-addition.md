@@ -1,11 +1,14 @@
 ---
-layout: service
+layout: secondary
 title: Renovation-Addition
+subtitle: Renovation-Addition
 description: Transformative solutions to expand or remodel your existing space, seamlessly blending functionality and style.
 permalink: /services/renovation-addition/
 icon: fas fa-hotel
 weight: 5
 ---
+
+## Transformative solutions to expand or remodel your existing space, seamlessly blending functionality and style.
 
 Our renovation and addition services help transform existing structures to meet your evolving needs. We ensure that new additions blend seamlessly with the original building while enhancing functionality and aesthetics.
 

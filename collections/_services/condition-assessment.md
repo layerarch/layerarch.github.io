@@ -1,11 +1,14 @@
 ---
-layout: service
+layout: secondary
 title: Building Condition Assessment
+subtitle: Building Condition Assessment
 description: Detailed evaluations of buildings to identify issues, assess structural integrity, and recommend necessary improvements.
 permalink: /services/condition-assessment/
 icon: fas fa-helmet-safety
 weight: 9
 ---
+
+## Detailed evaluations of buildings to identify issues, assess structural integrity, and recommend necessary improvements.
 
 Building condition assessments provide critical insights into the structural health of your property. Our thorough evaluations identify issues, estimate repair costs, and help prioritize maintenance to ensure long-term value and safety.
 

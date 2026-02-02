@@ -1,11 +1,14 @@
 ---
-layout: service
+layout: secondary
 title: Building Permits
+subtitle: Building Permits
 description: Professional guidance to navigate the permitting process, ensuring compliance with local regulations and successful approvals.
 permalink: /services/building-permits/
 icon: far fa-file-lines
 weight: 2
 ---
+
+## Professional guidance to navigate the permitting process, ensuring compliance with local regulations and successful approvals.
 
 Navigating the permitting process can be complex. At Layer Architecture, we simplify this journey by managing all aspects of building permit applications, ensuring your project adheres to municipal codes and receives timely approval.
 

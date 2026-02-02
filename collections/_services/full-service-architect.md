@@ -1,11 +1,14 @@
 ---
-layout: service
+layout: secondary
 title: Full-Service Architect
+subtitle: Full-Service Architect
 description: Comprehensive architectural services, from concept design to construction administration, custom tailored to your project's needs.
 permalink: /services/full-service-architect/
 icon: fas fa-compass-drafting
 weight: 1
 ---
+
+## Comprehensive architectural services, from concept design to construction administration, custom tailored to your project's needs.
 
 At Layer Architecture, we offer full-service architectural expertise that ensures your project is expertly guided through every phase—from the initial concept to the final construction. Our comprehensive approach integrates creative design, meticulous planning, and diligent construction oversight to deliver spaces that meet your needs with aesthetic and functional excellence. 
 
