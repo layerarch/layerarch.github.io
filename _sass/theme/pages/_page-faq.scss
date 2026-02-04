@@ -3,7 +3,7 @@
 .page-faq {
 	.accordion {
 		width: 100%;
-		border-bottom:  1px solid var(--faq-divider, lch(0% 0 0));
+		border-bottom:  1px solid currentColor;
 
 		.accordion-item {
 			border: none; /* let buttons provide separators */
@@ -17,7 +17,7 @@
 				/* remove Bootstrap button chrome but keep focus outline for accessibility */
 				box-shadow: none;
 				border: none;
-				border-top: 1px solid var(--faq-divider, lch(0% 0 0));
+				border-top: 1px solid currentColor;
 				border-left: 0;
 				border-right: 0;
 				border-bottom: 0;

@@ -1,25 +1,26 @@
 main:
-  - name: Home
-    url: /
+  - name: About
+    url: /about/
     weight: 1
+    child:
+      - name: About Us
+        url: /about/
+        weight: 1
+      - name: Services
+        url: /services/
+        weight: 2
+      - name: FAQ
+        url: /faq/
+        weight: 3
   - name: Projects
     url: /projects/
     weight: 2
-  - name: Services
-    url: /services/
-    weight: 3
-  - name: About
-    url: /about/
-    weight: 4
   - name: Contact
     url: /contact/
-    weight: 5
+    weight: 3
   - name: Blog
     url: /blog/
-    weight: 6
-  - name: FAQ
-    url: /faq/
-    weight: 7
+    weight: 4
   
 
 footer_primary:
@@ -42,25 +43,28 @@ footer_secondary:
   - name: Contact
     url: /contact/
     weight: 4
+  - name: FAQ
+    url: /faq/
+    weight: 1
   - name: Privacy Policy
     url: /privacy-policy/
-    weight: 1
-  - name: Terms and Conditions
-    url: /terms-and-conditions/
     weight: 2
+
 
 footer_tertiary:
+  - name: FAQ
+    url: /faq/
+    weight: 1  
   - name: Privacy Policy
     url: /privacy-policy/
-    weight: 1
-  - name: Terms and Conditions
-    url: /terms-and-conditions/
     weight: 2
 
+
 bottom:
+  - name: FAQ
+    url: /faq/
+    weight: 3
   - name: Privacy Policy
     url: /privacy-policy/
-    weight: 3
-  - name: Terms and Conditions
-    url: /terms-and-conditions/
     weight: 4
+
