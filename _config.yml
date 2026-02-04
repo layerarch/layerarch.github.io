@@ -174,7 +174,7 @@ contact_form:
   netlify_form_name: ""
 
 menu: 
-  show_dropdown_items_in_mobile_menu: false
+  show_dropdown_items_in_mobile_menu: true
   show_social_media_in_mobile_menu: true
 
 footer:
@@ -185,13 +185,13 @@ footer:
   enable_contact_details: false
   enable_menu_footer_primary: true
   enable_menu_footer_secondary: true
-  enable_menu_footer_tertiary: false
+  enable_menu_footer_tertiary: true
   footer_primary_menu_title: "Featured Projects"
   footer_secondary_menu_title: "Company"
-  footer_tertiary_menu_title: "Other"
+  footer_tertiary_menu_title: "Legal"
 
 bottom:
-  enable_bottom: false # show/hide the entire bottom (below the footer)
+  enable_bottom: true # show/hide the entire bottom (below the footer)
   enable_bottom_menu: false # if enabled, the bottom menu can be edited in `_data/menu.yml`
-  copyright_text: "© 2025 Layer Architecture Inc."
+  copyright_text: "© 2024-2026 Layer Architecture Inc. All Rights Reserved."
   show_rss_icon: false

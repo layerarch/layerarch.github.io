@@ -34,37 +34,32 @@ footer_primary:
     url: /projects/21005/
 
 footer_secondary:
+  - name: About
+    url: /about/
+    weight: 1
   - name: Services
     url: /services/
     weight: 2
-  - name: About
-    url: /about/
-    weight: 3
   - name: Contact
     url: /contact/
-    weight: 4
+    weight: 3
   - name: FAQ
     url: /faq/
-    weight: 1
-  - name: Privacy Policy
-    url: /privacy-policy/
-    weight: 2
+    weight: 4
 
 
 footer_tertiary:
-  - name: FAQ
-    url: /faq/
-    weight: 1  
   - name: Privacy Policy
     url: /privacy-policy/
+    weight: 1
+  - name: Terms and Conditions
+    url: /terms-and-conditions/
     weight: 2
 
-
 bottom:
-  - name: FAQ
-    url: /faq/
-    weight: 3
   - name: Privacy Policy
     url: /privacy-policy/
+    weight: 3
+  - name: Terms and Conditions
+    url: /terms-and-conditions/
     weight: 4
-
