@@ -10,7 +10,7 @@ meta_description: "Layer Architecture about page"
 
 # How We Work
 
-Our work is grounded in three core principles: durability, adaptability, and beauty. We design buildings to last through thoughtful detailing to allow for maintenance, repairs, and replacement of individual parts without compromising the whole. Our spaces are designed to adapt to shifting uses, evolving technologies, and the changing needs of the people who inhabit them. Above all, we aim to create architecture that is aesthetically compelling in quality, style, proportion, and visual expression.
+Our work is grounded in three core principles: durability, adaptability, and beauty. We design buildings to last. Through thoughtful detailing our designs allow for maintenance, repairs, and replacement of individual parts without compromising the whole. Our spaces are designed to adapt to shifting uses, evolving technologies, and the changing needs of the people who inhabit them. Above all, we aim to create architecture that is aesthetically compelling in quality, style, proportion, and visual expression.
 
 # Who We Are 
 
@@ -20,7 +20,7 @@ Our work is grounded in three core principles: durability, adaptability, and bea
     <p><strong>Michael MacNeill</strong><br>Owner, Architect, OAA</p>
   </div>
   <div class="col-md-8">
-    <p>Layer Architecture is owned and operated by Michael MacNeill, a licensed architect with a Master of Architecture (M.Arch) degree from the University of Toronto. Before founding Layer Architecture, Michael ran MacNeill Design Services, providing design, drafting, and building permit services for numerous residential renovations, additions, new constructions, and commercial interior projects. With over a decade of experience running this businesses and working for various architects across Toronto, his past roles include projects with CannonDesign, Amantea Architects, DesignSHFT, Wayne Swadron Studios, and EVOQ Architecture, specializing in new construction, renovations, adaptive reuse, and historic preservation.</p>
+    <p>Layer Architecture is owned and operated by Michael MacNeill, OAA, a licensed architect with a Master of Architecture (M.Arch) degree from the University of Toronto. Before founding Layer Architecture, Michael ran MacNeill Design Services, providing design, drafting, and building permit services for numerous residential renovations, additions, new constructions, and commercial interior projects. With over a decade of experience running this businesses and working for various architects across Toronto, his past roles include projects with CannonDesign, Amantea Architects, DesignSHFT, Wayne Swadron Studios, and EVOQ Architecture, specializing in new construction, renovations, adaptive reuse, and historic preservation.</p>
   </div>
 </div>
 
