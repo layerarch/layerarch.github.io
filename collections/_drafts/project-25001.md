@@ -1,0 +1,43 @@
+---
+layout: project 
+title: "Parkdale Basement Underpinning & Renovation"
+description: "Working with our affiliate company Layer Construction we helped save our client tens of thousands of dollars on this basement underpinning and renovation in Toronto's historic Parkdale neighbourhood."
+thumbnail: "/assets/images/gen/projects/25001/25001-1-thumbnail.webp"
+project-number: 25001
+client: "Private Client"
+location: "Toronto, ON"
+status: "Under Construction" #Constructed, Completed, Competition, Commissioned Study, Design Development, Under Construction, Demolished, Study
+occupancy: "Residential" #Assembly, Commercial, Residential, Industrial, Institutional  
+program: "Residenial" #Arena, Education, Exhibition, Expo, Hotel, Industrial, Industry, Infrastructure, Landscape, Leisure, Library, Masterplan, Mixed Use, Museum/Gallery, Office, Parking, Publicspace, Religion, Research, Residential, Restaurant/Bar, Retail, Scenography, Services, Theatre
+type: "Interior Renovation" #New Construction, Interior Renovation, Addition, Adaptive Reuse
+storeys: "1"
+area: "600 ft²"
+budget: ""
+construction-duration: "2026"
+role: 
+phases: 
+delivery-method: 
+weight: 999
+gallery:
+  - image: "/assets/images/gen/projects/25001/25001-1.webp"
+    caption: "Front elevation"
+  - type: collection
+    images:
+      - image: "/assets/images/gen/projects/25001/25001-2.webp"
+      - image: "/assets/images/gen/projects/25001/25001-3.webp"
+      - image: "/assets/images/gen/projects/25001/25001-5.webp"
+      - image: "/assets/images/gen/projects/25001/25001-6.webp"
+      - image: "/assets/images/gen/projects/25001/25001-7.webp"
+      - image: "/assets/images/gen/projects/25001/25001-8.webp"
+      - image: "/assets/images/gen/projects/25001/25001-9.webp"
+      - image: "/assets/images/gen/projects/25001/25001-10.webp"
+      - image: "/assets/images/gen/projects/25001/25001-11.webp"
+    caption: "Interior views"
+  - image: "/assets/images/gen/projects/25001/25001-12.webp"
+    caption: "Basement plan"
+---
+Working with our affiliate company Layer Construction we helped save our client tens of thousands of dollars on this basement underpinning and renovation in Toronto's historic Parkdale neighbourhood. The 600 ft.² basement underpinning and renovation included a new three-piece washroom, dedicated utility and laundry rooms, and a large central flexible space to extend the houses liveable areas.
+
+Custom millwork included new solid oak stairs with Oak handrail and a wood cap railing with a subtle reveal to create distinct shadow lines at the stairwell. The reconfigured, mechanical equipment and plumbing equipment, centralized all utilities in the centre a new centralized room completely out of the way, allowing for greater flexibility of the basement.
+
+By operating as an architect led design build construction model we were able to receive quotes from multiple trades and in total we were able to save the homeowner over $50,000 in construction costs over the span of the project. Our services included a building condition assessment, architecture, building permits, construction management, and field compliance. 

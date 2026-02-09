@@ -6,7 +6,7 @@ meta_description: "Layer Architecture about page"
 # image: "/assets/images/gen/content/content-5.webp"
 ---
 
-<!-- Layer Architecture is a Toronto-based architecture studio with experience in residential and commercial new construction, renovation-additions, laneway & garden suites, secondary suites, and interior alterations.  -->
+Layer Architecture is a Toronto-based architecture studio with experience in residential and commercial new construction, renovation-additions, laneway & garden suites, secondary suites, and interior alterations. 
 
 # How We Work
 

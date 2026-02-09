@@ -1,63 +1,52 @@
 ---
 layout: post
-title: "What is the Best Way to Insulate Your New Home?"
+title: "Best Wall Assemblies for Insulating a New Home (Cost, R-Value, Thickness)"
 date: 2025-09-13
 authors: ["Michael MacNeill"]
-categories: ["Technical"]
-description: "A comparison of different insulation methods to optimize insulation value, material, cost, and size."
-thumbnail: "/assets/images/gen/blog/2024-11-27/2024-11-28-thumbnailw.jpg"
+categories: ["Technical", "Residential"]
+description: "A comparison of different insulation methods to optimize insulation value, material, cost, and size, for your new home or renovation project."
+thumbnail: "/assets/images/gen/blog/2024-11-27/erik-mclean-aCshJn3y93s-unsplash-thumbnail.jpg"
 image: "/assets/images/gen/blog/2024-11-27/2024-11-28-banner.jpg"
 ---
 
-If you are looking to build a new home, or renovate your existing home, you may have asked yourself what is the best way to insulate your home? We compared over x wall types each with a unique strategy, thickness, or composition of insulation in order to determine which is the cheapest. which gives the most insulation value for its size, which gives the most insulation value period, and which is the best value. 
+If you’re planning to build a new home, or renovate an existing one, you’ve probably asked a deceptively simple question: what is the best way to insulate a house? The answer depends on what you’re optimizing for: upfront cost, thermal performance, wall thickness, or long-term energy efficiency.
 
-“how can I limit the passage of energy (heat) from one side of my house to the other, thus reducing the amount of energy (fuel) required for heating & cooling”… maybe not those exact words, but that is precisely what I set out to do here. 
+To explore this, I modeled and compared over 70 different wall assemblies, each using a distinct combination of structure, insulation type, and overall thickness. Using Therm 7.7, I calculated clear-wall R-values for each assembly, then paired that data with material pricing to evaluate cost per linear foot. The result is a comparative dataset that highlights which wall types perform best under different real-world constraints—cheapest overall, highest R-value, best R-value per dollar, and best performance within limited wall thickness.
 
-Below is a listing of 72 different wall assemblies I modeled and tested in Therm7.7 to check their clear wall R-value, then checked price data to determine their cost per linear foot. I then compared them to determine which wall type is ‘best’ given a set of different scenarios.
+In short, this study asks: how can we most effectively limit heat transfer through the building envelope, and what trade-offs come with each strategy?
 
-## 1. Introduction of Wall Types Tested
+## When Does Insulation Strategy Matter Most?
 
-Most or all of the walls contain an interior finish of gypsum board (drywall), exterior plywood sheathing, a 1/2” air barrier, and wood siding. The structural layer, insulation type, and insulation amount were varied and tested against one another. The different structural layers and insulation types/amounts are summarized below. 
+Decisions about insulation are typically made during the design phase and before permit drawings are submitted. Wall thickness affects not only energy performance, but also floor area, window detailing, structure, and overall building cost. Once drawings are submitted, changing wall assemblies can trigger redesign and permit delays.
 
-Stick Frame Walls (SF) — This is your typical wood stud wall with insulation added between studs, and with or without additional insulation added between the exterior plywood sheathing and siding.  
+## Introduction of Wall Types Tested
 
-Double Stud Walls (DS) — Think of this as two wood stud walls spaced between 8-12” apart with the gap between the two filled with loose fill insulation.
+Most or all of the walls contain an interior finish of gypsum board (drywall), exterior plywood sheathing, 1/2” air barrier, and wood siding. The wall types were differentiated by their structural compoentns, insulation type, and insulation thickness.   
 
-I-Joist Wall (TJI) — I joists are a specially manufactured type of stud which function the same but are capable of being manufactured to greater depths than typical wood studs (being dependent on the diameter of the tree they are felled from). This in turn allows for a thicker wall cavity, and thus adding in more insulation.
+Structural layers consist of: 
 
-Concrete Masonry Unit (CMU) — More common with commercial jobs or in basements. Concrete blocks are stacked into a wall with insulation added to either the exterior or interior surface of the wall.
+* Stick Frame Walls (SF) — This is your typical wood stud wall with insulation added between studs, and with or without additional insulation added between the exterior plywood sheathing and siding.  
+* Double Stud Walls (DS) — Think of this as two wood stud walls spaced between 8-12” apart with the gap between the two filled with loose fill insulation.
+* I-Joist Wall (TJI) — I joists are a specially manufactured type of stud which function the same but are capable of being manufactured to greater depths than typical wood studs (being dependent on the diameter of the tree they are felled from). This in turn allows for a thicker wall cavity, and thus adding in more insulation.
+* Concrete Masonry Unit (CMU) — More common with commercial jobs or in basements. Concrete blocks are stacked into a wall with insulation added to either the exterior or interior surface of the wall.
+* Insulated Concrete Forms (ICF) — Also more common for basement applications, however have the potential for use for the entire house. Here rigid insulation acts as the formwork for concrete the be poured into. Once the concrete cures, the insulation remains in place, serving as the buildings insulation.
+* Structural Insulated Panels (SIP) — These are pre-manufactured wall panels consisting of an inner layer of rigid insulation, sandwiched between plywood sheathing on either side. 
+* Cross Laminated Timber (CLT) — This type of wall is made up of layers of wood studs oriented perpendicularly layer by layer then glued together into a solid panel typically made between 6-10” thick by most manufacturers. Insulation is then added onto the exterior or interior side.  
+* Cross Laminated Insulated Panels (CLIP) — These are also pre-manufactured walls, here using thinner CLT panels as interior and exterior sheathing, separated by wood studs and with a cavity filled with insulation.
 
-Insulated Concrete Forms (ICF) — Also more common for basement applications, however have the potential for use for the entire house. Here rigid insulation acts as the formwork for concrete the be poured into. Once the concrete cures, the insulation remains in place, serving as the buildings insulation.
+Insulation layers consist of:
 
-Structural Insulated Panels (SIP) — These are pre-manufactured wall panels consisting of an inner layer of rigid insulation, sandwiched between plywood sheathing on either side. 
+* Fiberglass Batts (BATT) — The ubiquitous fluffy pink stuff seen in 99% of residential homes. 
+* Blown-in Cellulose (BLOWN) — Typically found in attics where gravity alone holds it in place against the ceiling. 
+* Spray Foam (SPRAY) — Becoming increasingly more popular this type of insulation starts out as a liquid and that is sprayed directly onto wall/floor/ceiling surfaces where it expands into a continuous and air tight barrier. 
+* Expanded Polystyrene (EPS) — Essentially the same stuff used as packaging material. It is rigid, comes in sheets, and is more common below basement slabs and as the formwork for insulated concrete form walls. 
+* Extruded Polystyrene (XPS) — Another rigid type of insulation that comes in sheets and is used most often applied to the outside surface of walls for creating a continuous layer of thermal resistance uninterrupted by structural members.
+* Foil Faced Polyisocyanurate (POLI) — A higher quality rigid insulation that has a reflective foil face on one side to reflect solar radiation. 
+* Mineral Wool (MW) — This semi-rigid wool fiber insulation is more commonly used on commercial jobs because it can be left exposed to the weather for longer periods of time than other options, thus making it less susceptible to damages due to delays in the build if left exposed.   
 
-Cross Laminated Timber (CLT) — This type of wall is made up of layers of wood studs oriented perpendicularly layer by layer then glued together into a solid panel typically made between 6-10” thick by most manufacturers. Insulation is then added onto the exterior or interior side.  
+Wall thicknesses varied from 8" to 20 1/2"
 
-Cross Laminate Insulated Panels (CLIP) — These are also pre-manufactured walls, here using thinner CLT panels as interior and exterior sheathing, separated by wood studs and with a cavity filled with insulation.
-
-For insulation I tested:
-
-Fiberglass Batts (BATT) — The ubiquitous fluffy pink stuff seen in 99% of residential homes. 
-
-Blown-in Cellulose (BLOWN) — Typically found in attics where gravity alone holds it in place against the ceiling. 
-
-Spray Foam (SPRAY) — Becoming increasingly more popular this type of insulation starts out as a liquid and that is sprayed directly onto wall/floor/ceiling surfaces where it expands into a continuous and air tight barrier. 
-
-Expanded Polystyrene (EPS) — Essentially the same stuff used as packaging material. It is rigid, comes in sheets, and is more common below basement slabs and as the formwork for insulated concrete form walls. 
-
-Extruded Polystyrene (XPS) — Another rigid type of insulation that comes in sheets and is used most often applied to the outside surface of walls for creating a continuous layer of thermal resistance uninterrupted by structural members.
-
-Foil Faced Polyisocyanurate (POLI) — A higher quality rigid insulation that has a reflective foil face on one side to reflect solar radiation. 
-
-Mineral Wool (MW) — This semi-rigid wool fiber insulation is more commonly used on commercial jobs because it can be left exposed to the weather for longer periods of time than other options, thus making it less susceptible to damages due to delays in the build if left exposed.   
-
-## Summary of Data
-
-Below is a summary of all the data used for the different wall types. including cost of materials, R-value, thickness of wall.
-
-{% include framework/shortcodes/figure.html src="/assets/images/gen/blog/2024-11-27/wall-type-data.webp" link="/assets/images/gen/blog/2024-11-27/wall-type-data.webp" target="\_blank" %}
-
-## Comparrison 
+## Which Wall Type is Best? 
 
 Which wall is best really depends on your needs. Are you trying to spend the least amount of money on heating costs every year? Or maybe your building footprint is limited so you cant afford to give up the extra square footage thicken your walls with extra insulation.  Below I listed a few different scenarios and the best wall type suited to each of those conditions. 
 
@@ -65,7 +54,7 @@ Which wall is best really depends on your needs. Are you trying to spend the lea
 
 {% include framework/shortcodes/figure.html src="/assets/images/gen/blog/2024-11-27/cards/WALL-CARDS_Data Set 27-01.png" link="/assets/images/gen/blog/2024-11-27/cards/WALL-CARDS_Data Set 27-01.png" target="\_blank" %}
 
-Coming in at R-87.85, the W27 provided the most thermal resistance of the walls tested. It also happened to be the thickest at over 20” thick. One way to turn this into an advantage however is to convert the window openings into a bench, banquette, or even a reading nook by setting the windows as close to the exterior surface of the wall as possible, thus creating a nearly 20” deep slab for sitting. 
+Coming in at R-87.85, the W27 provided the most thermal resistance of the walls tested. It also happened to be the thickest at over 20” thick. One way to turn this into an advantage is to use the window openings for banquette seating. 
 
 ### Highest R-Value per Dollar
 
@@ -107,7 +96,7 @@ Using more conventional materials the W14 offers the highest R-value per dollar 
 
 {% include framework/shortcodes/figure.html src="/assets/images/gen/blog/2024-11-27/cards/WALL-CARDS_Data Set 4-01.png" link="/assets/images/gen/blog/2024-11-27/cards/WALL-CARDS_Data Set 4-01.png" target="\_blank" %}
 
-Not surprisingly the 2X6 wall with nothing but spray foam insulation was the highest R-value at R-30 in a wall assembly totaling only 9” thick.
+The 2X6 wall with nothing but spray foam insulation was the highest R-value at R-30 in a wall assembly totaling only 9” thick. *Although an efficient choice, there are inherent risks and challenges to using spray foam at large scales. These include; issues with running services; issues with removal for renovations; fire safety concerns if left uncovered, and; inability to investigate water leaks should they occur behind the insulation.* 
 
 ### Highest R-Value per Dollar Under 9” Thick
 
@@ -115,8 +104,17 @@ Not surprisingly the 2X6 wall with nothing but spray foam insulation was the hig
 
 SIPs are probably the most efficient in terms of size, seeing as the insulation works in tandem with the exterior sheathing to act as the structural layer as well, making for an incredibly compact wall assembly. The W42 is the best option for when you are building on a budget and are very limited in space.  
 
+## Summary of Data
+
+[A complete table with all of the parameters and data modelled can be found here.](https://layerarch.ca/assets/images/gen/blog/2024-11-27/wall-type-data.webp)
+
+## Architectural Implications of Wall Assembly Choices
+
+While insulation performance can be analyzed in isolation, selecting the right wall assembly is typically part of a broader architectural design process that considers zoning, structure, and constructability. For projects where wall thickness and performance materially impact design, [early coordination during the architectural phase](/services/) can avoid costly revisions later.
+
 ## Conclusion
 
-Realistically either of these wall types will work fine in 99% of build cases. But choosing which wall type works best for your project depends on the unique factors related to your build. In any case, hopefully this helps you make an informed choice of wall type for your next project. 
+There is no single “best” wall assembly—only the one that best fits the priorities and constraints of a given project. In most residential builds, several of the wall types analyzed here will perform perfectly well from a comfort and code-compliance standpoint. The real decision comes down to how much space you can afford to give up, how much you want to spend upfront, and how aggressively you want to reduce long-term energy use.
 
+Hopefully, this comparison provides a clearer framework for evaluating those trade-offs and helps you make a more informed decision about insulation strategy on your next project.
 
