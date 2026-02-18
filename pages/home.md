@@ -4,6 +4,7 @@ permalink: "/"
 title: "Layer Architecture Inc."
 meta_title: "Layer Architecture Inc."
 description: "Toronto based architecture and design studio with a focus on residential and commercial projects of all sizes, new construction, renovation-additions, and interior alterations."
+meta_description: "Toronto based architecture and design studio with a focus on residential and commercial projects of all sizes, new custom homes, residential renovation & additions, basement apartments, laneway and garden suites, and commercial interior alterations."
 
 subscribe: false
 

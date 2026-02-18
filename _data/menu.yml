@@ -1,26 +1,22 @@
 main:
-  - name: About
-    url: /about/
-    weight: 1
-    child:
-      - name: About Us
-        url: /about/
-        weight: 1
-      - name: Services
-        url: /services/
-        weight: 2
-      - name: FAQ
-        url: /faq/
-        weight: 3
   - name: Projects
     url: /projects/
+    weight: 1
+  - name: Services
+    url: /services/
     weight: 2
-  - name: Contact
-    url: /contact/
+  - name: About
+    url: /about/
     weight: 3
   - name: Blog
     url: /blog/
     weight: 4
+  - name: FAQ
+    url: /faq/
+    weight: 5
+  - name: Contact
+    url: /contact/
+    weight: 6
   
 
 footer_primary:

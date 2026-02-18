@@ -182,7 +182,7 @@ footer:
   footer_title: "Layer Architecture Inc."
   footer_description: "We look forward to working with you!"
   enable_social_media_icons: true
-  enable_contact_details: false
+  enable_contact_details: true
   enable_menu_footer_primary: true
   enable_menu_footer_secondary: true
   enable_menu_footer_tertiary: true
