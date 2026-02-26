@@ -2,11 +2,11 @@
 # Jekyll Config
 # --------------------
 baseurl: ""
-url: "http://layerarch.ca"
+url: "https://layerarch.ca"
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
-description: "Layer Architecture is a full-service architecture and design studio based in Toronto, Ontario. We welcome opportunities to work on residential and commercial projects of all sizes and complexities. Our services include architecture and design for new construction, renovations and additions, and interior alterations."
+description: "Layer Architecture is a Tronto-based full-service architecture and design studio specialising in residential renovations and additions, new custom homes, laneway and garden suites, and commercial interior alterations."
 
 # Plugins
 plugins:
@@ -149,8 +149,8 @@ cookie_banner:
   show_manage_cookies_at_bottom: true
 
 analytics:
-  disable_analytics_on_localhost: false # prevents polluting analytics data while developing but enabling can be useful
-  google_analytics_id: "G-YCRQ8X9MCX"
+  disable_analytics_on_localhost: true # prevents polluting analytics data while developing but enabling can be useful
+  google_analytics_id: ""
   gtm_id: "GTM-MDBNSV2K"
   plausible_data_domain: "" # mywebsite.com
   umami_data_website_id: "" # ddd14336-5fb0-4cdd-8f32-e1bfa906cc2b
