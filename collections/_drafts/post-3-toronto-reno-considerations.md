@@ -22,3 +22,4 @@ what are submittals and why should i care
 what does an architect do during construction
 timeline for building permits
 how are architectural fees calculated? / architectural design fees explained.
+7 layers of architecture

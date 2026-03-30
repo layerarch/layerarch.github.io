@@ -68,7 +68,10 @@ body_classes: page-home
 </div>
 {% endif %}
 
-<!-- {% assign cards = site.services | sort: 'weight' | reverse %}
+
+
+
+{% assign cards = site.services | sort: 'weight' | reverse %}
 {% assign limit = page.services.limit | default: 999 %}
 {% assign sort_by = page.services.sort | default: 'date' %}
 {% assign columns =  page.services.columns | default: 3 %}
@@ -111,9 +114,60 @@ body_classes: page-home
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
-{% assign cards = site.services | sort: 'date' | reverse %}
+
+
+
+
+{% assign cards = site.posts | sort: 'date' | reverse %}
+{% assign limit = page.posts.limit | default: 3 %}
+{% assign sort_by = page.posts.sort | default: 'date' %}
+{% assign columns =  page.posts.columns | default: 3 %}
+{% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
+{% if sort_by == 'weight' %}
+  {% assign cards = cards | sort: 'weight' %}
+{% endif %}
+
+{% if cards.size > 0 %}
+<div class="section section-base-bg-2">
+  <div class="container">
+    <div class="row">
+
+      {% capture formatted_heading %}
+        <underline>{{ page.posts.heading }}</underline>
+      {% endcapture %}
+
+      {% include framework/grid-header.html 
+        heading=formatted_heading
+        sub_heading=page.posts.sub_heading 
+      %}
+
+      {% for card in cards limit: limit %}
+      <div class="col-12 col-md-4 {{ columns }} {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %}">
+        {% include theme/cards/card-post.html
+          title=card.title
+          icon=card.icon
+          image=card.image
+          description=card.description
+          url=card.url
+        %}
+      </div>
+      {% endfor %}
+
+      {% include framework/grid-footer.html 
+        view_more_button_text=page.posts.view_more_button_text
+        view_more_button_link=page.posts.view_more_button_link
+        align="right"
+        icon="fa-arrow-right"
+      %}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+
+<!-- {% assign cards = site.services | sort: 'date' | reverse %}
 {% assign limit = page.services.limit | default: 3 %}
 {% assign sort_by = page.services.sort | default: 'date' %}
 {% assign columns =  page.services.columns | default: 3 %}
@@ -156,7 +210,7 @@ body_classes: page-home
     </div>
   </div>
 </div>
-{% endif %}
+{% endif %} -->
 
 {% if site.newsletter.mailchimp.form_action_url and site.newsletter.mailchimp.form_action_url != '' %}
   <div class="section section-base-bg-2">

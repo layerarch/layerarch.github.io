@@ -31,7 +31,7 @@ posts:
   sub_heading: ""
   limit: 3
   sort: date # date | weight
-  view_more_button_text: ""
-  view_more_button_link: "" # "/blog"
+  view_more_button_text: "More Posts"
+  view_more_button_link: "blog" # "/blog"
   columns: 3 # 1 | 2 | 3 | 4
 ---
