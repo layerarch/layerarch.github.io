@@ -8,18 +8,25 @@ description: "Three considerations related to the design and planning of your ho
 thumbnail: "/assets/images/gen/blog/placeholder-thumbnailw.jpg"
 image: "/assets/images/gen/blog/placeholder-banner.jpg"
 ---
-laneway design guide
-multiplex design guide
+laneway design guide / how to build a laneway or garden suite
+multiplex design guide / how to build a multiplex
+
+5 reasons to build a multiplex development now
 single exit stair multiplex
 architectural design services
-toronto home design
 Top 10 things to consider for your residential addition
   pro tip. FSI no longer applies if you have a second unit on your property (laneway, garden suite, second suite/basement apartment)
-Toronto laneway house construction considerations
+
+
+
 what does an architects contract look like
 what to look for in a construction contract
 what are submittals and why should i care
 what does an architect do during construction
+
+
+
+NAH
+
 timeline for building permits
-how are architectural fees calculated? / architectural design fees explained.
-7 layers of architecture
+toronto home design

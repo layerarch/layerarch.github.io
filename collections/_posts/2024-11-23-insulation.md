@@ -96,7 +96,9 @@ Using more conventional materials the W14 offers the highest R-value per dollar 
 
 {% include framework/shortcodes/figure.html src="/assets/images/gen/blog/2024-11-27/cards/WALL-CARDS_Data Set 4-01.png" link="/assets/images/gen/blog/2024-11-27/cards/WALL-CARDS_Data Set 4-01.png" target="\_blank" %}
 
-The 2X6 wall with nothing but spray foam insulation was the highest R-value at R-30 in a wall assembly totaling only 9” thick. *Although an efficient choice, there are inherent risks and challenges to using spray foam at large scales. These include; issues with running services; issues with removal for renovations; fire safety concerns if left uncovered, and; inability to investigate water leaks should they occur behind the insulation.* 
+The 2X6 wall with nothing but spray foam insulation was the highest R-value at R-30 in a wall assembly totaling only 9” thick. 
+
+*Although an efficient choice, there are inherent risks and challenges to using spray foam at large scales. These include; issues with running services; issues with removal for renovations; fire safety concerns if left uncovered, and; inability to investigate water leaks should they occur behind the insulation.* 
 
 ### Highest R-Value per Dollar Under 9” Thick
 
@@ -118,3 +120,4 @@ There is no single “best” wall assembly—only the one that best fits the pr
 
 Hopefully, this comparison provides a clearer framework for evaluating those trade-offs and helps you make a more informed decision about insulation strategy on your next project.
 
+*Updated: 2026-02-05*

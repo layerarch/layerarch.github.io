@@ -22,5 +22,11 @@
   "stylelint.validate": ["css", "scss"],
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": "explicit"
-  }
+  },
+  "cSpell.words": [
+    "geotechnical",
+    "neighbour",
+    "neighbourhood",
+    "neighbours"
+  ]
 }

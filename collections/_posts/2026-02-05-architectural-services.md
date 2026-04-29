@@ -4,7 +4,7 @@ title: "Architectural Design Services in Toronto"
 date: 2026-02-05
 authors: ["Michael MacNeill"]
 categories: ["Services"]
-description: "Architectural design services in Toronto for residential additions, laneway suites, multiplex housing, and permit approvals. Learn when you need an architect and how the design process works."
+description: "Architectural design services in Toronto for residential additions, laneway suites, multiplex housing, and building permit approvals. Learn when you need an architect and how the design process works."
 thumbnail: "/assets/images/gen/blog/architectural-services/sven-mieke-fteR0e2BzKo-unsplash-thumbnail.jpg"
 image: "/assets/images/gen/blog/architectural-services/sven-mieke-fteR0e2BzKo-unsplash.jpg"
 ---

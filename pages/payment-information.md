@@ -11,7 +11,7 @@ meta_description: "Layer Architecture Payment Information"
 ## Online Banking
 
 <!-- Log into your bank account and search for the payee: Layer Architecture Inc. Enter 000 followed by the last 3 digits of project # as the account #. -->
-Log into your bank account and set up a new Direct Deposit (EFT/wire transfer) to Institution: 003, Transit: 06702, Account: 1026699
+Log into your bank account and set up a new Direct Deposit (EFT/wire transfer) to Institution: 703, Transit: 00002, Account: 46640066
 
 ## E-transfer
 

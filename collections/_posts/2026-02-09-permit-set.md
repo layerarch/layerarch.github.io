@@ -4,7 +4,7 @@ title: "Permit Drawings Vs. Construction Documents"
 date: 2026-02-09
 authors: ["Michael MacNeill"]
 categories: ["Services", "Technical"]
-description: "A guide comparing a basic \"permit set\" of drawings with Construction Documents made as part of a complete scope of architecutral services, and why it matters for your project."
+description: "A guide comparing a basic \"permit set\" of drawings with Construction Documents made as part of a complete scope of architectural services, and why it matters for your project."
 thumbnail: "/assets/images/gen/blog/construction-documents/plan-of-building-architectural-project-background-P2CGCM8-thumbnail.jpg"
 image: "/assets/images/gen/blog/construction-documents/plan-of-building-architectural-project-background-P2CGCM8.jpg"
 ---
@@ -34,7 +34,7 @@ A permit set includes the **minimum information required to secure building perm
 * Limited or no guidance on materials, finishes, or furniture placement  
 * Minimal coordination with mechanical, electrical, or plumbing systems  
 * Potential for construction delays or surprises due to missing details  
-* Greater reliance on contractor judgment for finish selections, which can affect cost and aesthetics  
+* Greater reliance on contractor judgment for finish selections, often on-the-fly with little to no time for contemplation, which can affect cost and aesthetics
 
 ## Construction Documents
 
@@ -49,7 +49,7 @@ Construction Documents go far beyond permit requirements, **covering all aspects
 
 **Benefits:**
 
-* Visualize finishes, furniture, and fixtures before construction begins  
+* Visualize finishes, furniture, and fixtures before construction begins and at your leisure
 * Reduce costly construction errors or changes mid-project  
 * Streamline contractor communication and decision-making  
 * Account for lead times, specialized products, and procurement requirements  
@@ -65,8 +65,8 @@ With a permit set:
 With a complete set of Construction Documents:
 
 * You control materials, finishes, and aesthetics from the start  
-* The architect coordinates selections with mechanical, plumbing, and electrical layouts  
-* Potential conflicts and delays are minimized  
+* The architect can review materials for performance, durability, maintenance requirements, and sustainability then make a recommendation that aligns with your project goals
+* Potential conflicts and delays during construction are minimized  
 
 ## Coordination of Services
 
@@ -89,3 +89,5 @@ Hiring an architect to provide fully coordinated and complete Construction Docum
 **Construction Documents** are essential for projects where design quality, material choices, and construction efficiency matter.  
 
 Working with an architect to produce a full set of drawings is the best way to **avoid surprises, reduce delays, and ensure the final build reflects your vision**.
+
+*Updated: 2026-04-13*
